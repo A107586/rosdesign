@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-57562a62f8bd28992ee6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo_cpp_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_node-f79988f97f6b4923111c.json",
+					"name" : "cpp_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_cpp_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_cpp_pkg_uninstall-ac54712e74b58b04f585.json",
+					"name" : "demo_cpp_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learn_auto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learn_auto-b09854f715417dccb893.json",
+					"name" : "learn_auto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learn_function::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learn_function-dd7edbf3f66ce4269a6d.json",
+					"name" : "learn_function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learn_lambda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learn_lambda-8a4c914804a93e617056.json",
+					"name" : "learn_lambda",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learn_shared_ptr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learn_shared_ptr-9af3470d71b2ba3c9c6e.json",
+					"name" : "learn_shared_ptr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learn_thread::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learn_thread-42cf707a2d6bf8c42e8f.json",
+					"name" : "learn_thread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "person_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-person_node-2c0fa2363521c9fddbd1.json",
+					"name" : "person_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-783a3ba734a436ef5df4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zj/chapt2/chapt2_ws/build/demo_cpp_pkg",
+		"source" : "/home/zj/chapt2/chapt2_ws/src/demo_cpp_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

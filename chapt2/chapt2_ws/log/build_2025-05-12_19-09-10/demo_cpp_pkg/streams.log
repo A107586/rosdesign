@@ -1,0 +1,100 @@
+[0.110s] Invoking command in '/home/zj/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zj/chapt2/chapt2_ws/src/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg
+[1.018s] -- The C compiler identification is GNU 11.4.0
+[1.448s] -- The CXX compiler identification is GNU 11.4.0
+[1.484s] -- Detecting C compiler ABI info
+[1.775s] -- Detecting C compiler ABI info - done
+[1.802s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.802s] -- Detecting C compile features
+[1.803s] -- Detecting C compile features - done
+[1.813s] -- Detecting CXX compiler ABI info
+[2.057s] -- Detecting CXX compiler ABI info - done
+[2.082s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.084s] -- Detecting CXX compile features
+[2.084s] -- Detecting CXX compile features - done
+[2.114s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.884s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.337s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.503s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.534s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.555s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.600s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.829s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.846s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.145s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.223s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.350s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.383s] -- Looking for pthread.h
+[4.606s] -- Looking for pthread.h - found
+[4.607s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.872s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.875s] -- Found Threads: TRUE  
+[5.130s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.385s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.386s] -- Configured cppcheck include dirs: /home/zj/chapt2/chapt2_ws/src/demo_cpp_pkg/include
+[5.386s] -- Configured cppcheck exclude dirs and/or files: 
+[5.388s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.390s] -- Added test 'lint_cmake' to check CMake code style
+[5.393s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.406s] -- Added test 'uncrustify' to check C / C++ code style
+[5.406s] -- Configured uncrustify additional arguments: 
+[5.409s] -- Added test 'xmllint' to check XML markup files
+[5.415s] -- Configuring done
+[5.504s] -- Generating done
+[5.543s] -- Build files have been written to: /home/zj/chapt2/chapt2_ws/build/demo_cpp_pkg
+[5.572s] Invoked command in '/home/zj/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zj/chapt2/chapt2_ws/src/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg
+[5.579s] Invoking command in '/home/zj/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zj/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j8 -l8
+[5.844s] [  7%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[5.844s] [ 14%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[5.880s] [ 21%] [32mBuilding CXX object CMakeFiles/learn_shared_ptr.dir/src/learn_shared_ptr.cpp.o[0m
+[5.889s] [ 35%] [32mBuilding CXX object CMakeFiles/learn_function.dir/src/learn_function.cpp.o[0m
+[5.889s] [ 42%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[5.890s] [ 50%] [32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o[0m
+[5.904s] [ 50%] [32mBuilding CXX object CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o[0m
+[9.131s] [ 57%] [32m[1mLinking CXX executable learn_auto[0m
+[11.788s] [ 64%] [32m[1mLinking CXX executable learn_shared_ptr[0m
+[11.836s] [ 64%] Built target learn_auto
+[12.299s] [ 71%] [32m[1mLinking CXX executable learn_lambda[0m
+[12.489s] [ 71%] Built target learn_shared_ptr
+[13.223s] [ 71%] Built target learn_lambda
+[13.526s] [ 78%] [32m[1mLinking CXX executable learn_function[0m
+[13.921s] [ 78%] Built target learn_function
+[35.784s] [ 85%] [32m[1mLinking CXX executable cpp_node[0m
+[36.847s] [ 92%] [32m[1mLinking CXX executable person_node[0m
+[37.809s] [ 92%] Built target cpp_node
+[38.870s] [ 92%] Built target person_node
+[66.475s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[69.473s] [100%] Built target learn_thread
+[69.807s] Invoked command in '/home/zj/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zj/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j8 -l8
+[70.008s] Invoking command in '/home/zj/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zj/chapt2/chapt2_ws/build/demo_cpp_pkg
+[70.271s] -- Install configuration: ""
+[70.290s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[70.307s] -- Set runtime path of "/home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node" to ""
+[70.307s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[70.321s] -- Set runtime path of "/home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""
+[70.321s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto
+[70.331s] -- Set runtime path of "/home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto" to ""
+[70.332s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared_ptr
+[70.344s] -- Set runtime path of "/home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared_ptr" to ""
+[70.350s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+[70.350s] -- Set runtime path of "/home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda" to ""
+[70.352s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_function
+[70.353s] -- Set runtime path of "/home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_function" to ""
+[70.354s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_thread
+[70.501s] -- Set runtime path of "/home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_thread" to ""
+[70.509s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[70.512s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[70.517s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[70.518s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[70.519s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[70.520s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[70.521s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[70.522s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[70.528s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[70.528s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[70.528s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[70.529s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[70.529s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[70.532s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[70.534s] -- Installing: /home/zj/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[70.552s] Invoked command in '/home/zj/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zj/chapt2/chapt2_ws/build/demo_cpp_pkg

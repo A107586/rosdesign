@@ -1,0 +1,361 @@
+[1.204s] Invoking command in '/home/zj/chapt2/chapt2_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zj/chapt2/chapt2_ws/build/wpr_simulation2 -- -j8 -l8
+[1.497s] [35m[1mConsolidate compiler generated dependencies of target wpb_home_mani_sim[0m
+[1.498s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_generator_c[0m
+[1.499s] [35m[1mConsolidate compiler generated dependencies of target 3_my_node[0m
+[1.511s] [35m[1mConsolidate compiler generated dependencies of target keyboard_vel_cmd[0m
+[1.514s] [35m[1mConsolidate compiler generated dependencies of target ball_random_move[0m
+[1.557s] [35m[1mConsolidate compiler generated dependencies of target 3_publisher_node[0m
+[1.582s] [  1%] Built target wpr_simulation2__cpp
+[1.600s] [  5%] Built target wpr_simulation2__rosidl_generator_c
+[1.624s] [  7%] Built target wpb_home_mani_sim
+[1.643s] [  7%] Built target ament_cmake_python_copy_wpr_simulation2
+[1.644s] [ 10%] Built target keyboard_vel_cmd
+[1.653s] [ 12%] Built target 3_my_node
+[1.659s] [35m[1mConsolidate compiler generated dependencies of target 3_subscriber_node[0m
+[1.660s] [ 15%] Built target ball_random_move
+[1.674s] [ 17%] Built target 3_publisher_node
+[1.701s] [35m[1mConsolidate compiler generated dependencies of target 4_velocity_command[0m
+[1.727s] [35m[1mConsolidate compiler generated dependencies of target 5_lidar_behavior[0m
+[1.729s] [35m[1mConsolidate compiler generated dependencies of target 5_lidar_data[0m
+[1.747s] [35m[1mConsolidate compiler generated dependencies of target 6_imu_data[0m
+[1.747s] [35m[1mConsolidate compiler generated dependencies of target 8_waypoint_navigation[0m
+[1.753s] [35m[1mConsolidate compiler generated dependencies of target 6_imu_behavior[0m
+[1.782s] [ 20%] Built target 3_subscriber_node
+[1.797s] [35m[1mConsolidate compiler generated dependencies of target 9_cv_image[0m
+[1.831s] [ 22%] Built target 5_lidar_behavior
+[1.852s] [ 25%] Built target 4_velocity_command
+[1.852s] [ 27%] Built target 8_waypoint_navigation
+[1.853s] [ 30%] Built target 6_imu_data
+[1.853s] [ 32%] Built target 5_lidar_data
+[1.881s] [ 35%] Built target 6_imu_behavior
+[1.882s] [35m[1mConsolidate compiler generated dependencies of target 9_cv_hsv[0m
+[1.906s] [ 37%] Built target 9_cv_image
+[1.912s] [35m[1mConsolidate compiler generated dependencies of target 9_cv_follow[0m
+[1.951s] [35m[1mConsolidate compiler generated dependencies of target 9_cv_face_detect[0m
+[1.954s] [35m[1mConsolidate compiler generated dependencies of target 11_mani_ctrl[0m
+[1.971s] [35m[1mConsolidate compiler generated dependencies of target 12_fetch[0m
+[1.974s] [35m[1mConsolidate compiler generated dependencies of target 10_pc_data[0m
+[1.975s] [35m[1mConsolidate compiler generated dependencies of target 10_pc_objects[0m
+[1.989s] [35m[1mConsolidate compiler generated dependencies of target demo_nav2_client[0m
+[2.031s] [ 40%] Built target 9_cv_hsv
+[2.042s] [ 43%] Built target 9_cv_follow
+[2.065s] [ 45%] Built target 11_mani_ctrl
+[2.097s] [ 48%] Built target 12_fetch
+[2.098s] [ 50%] Built target 9_cv_face_detect
+[2.126s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_cpp[0m
+[2.128s] [ 53%] Built target demo_nav2_client
+[2.138s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_c[0m
+[2.146s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_cpp[0m
+[2.184s] [ 55%] Built target 10_pc_data
+[2.184s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_c[0m
+[2.191s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_c[0m
+[2.208s] [ 58%] Built target 10_pc_objects
+[2.223s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_cpp[0m
+[2.223s] [ 62%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp
+[2.229s] [ 65%] Built target wpr_simulation2__rosidl_typesupport_cpp
+[2.229s] [ 69%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c
+[2.262s] [ 73%] Built target wpr_simulation2__rosidl_typesupport_introspection_c
+[2.299s] [ 77%] Built target wpr_simulation2__rosidl_typesupport_c
+[2.300s] [ 81%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp
+[2.321s] [35m[1mConsolidate compiler generated dependencies of target 11_grab_object[0m
+[2.336s] [35m[1mConsolidate compiler generated dependencies of target objects_publisher[0m
+[2.337s] [35m[1mConsolidate compiler generated dependencies of target grab_object_sim[0m
+[2.434s] [ 83%] Built target 11_grab_object
+[2.438s] [ 83%] Built target wpr_simulation2
+[2.457s] [ 86%] Built target grab_object_sim
+[2.485s] [ 88%] Built target objects_publisher
+[2.529s] [ 89%] Built target wpr_simulation2__py
+[2.583s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_generator_py[0m
+[2.626s] [ 92%] Built target wpr_simulation2__rosidl_generator_py
+[2.691s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.693s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_c__pyext[0m
+[2.699s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_c__pyext[0m
+[2.747s] [ 94%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext
+[2.752s] [ 97%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext
+[2.760s] [100%] Built target wpr_simulation2__rosidl_typesupport_c__pyext
+[3.283s] running egg_info
+[3.287s] writing wpr_simulation2.egg-info/PKG-INFO
+[3.288s] writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt
+[3.289s] writing top-level names to wpr_simulation2.egg-info/top_level.txt
+[3.298s] reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[3.302s] writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[3.413s] [100%] Built target ament_cmake_python_build_wpr_simulation2_egg
+[3.459s] Invoked command in '/home/zj/chapt2/chapt2_ws/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zj/chapt2/chapt2_ws/build/wpr_simulation2 -- -j8 -l8
+[3.467s] Invoking command in '/home/zj/chapt2/chapt2_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zj/chapt2/chapt2_ws/build/wpr_simulation2
+[3.499s] -- Install configuration: ""
+[3.500s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/ament_index/resource_index/rosidl_interfaces/wpr_simulation2
+[3.500s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[3.501s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[3.501s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_c__visibility_control.h
+[3.502s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[3.502s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.c
+[3.502s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.h
+[3.502s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.h
+[3.503s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.h
+[3.503s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.h
+[3.503s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.sh
+[3.504s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.dsv
+[3.504s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so
+[3.504s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[3.505s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[3.505s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[3.505s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[3.505s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.509s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so
+[3.510s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[3.510s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[3.511s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.512s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[3.512s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__traits.hpp
+[3.512s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__builder.hpp
+[3.512s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.hpp
+[3.513s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.hpp
+[3.513s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.hpp
+[3.513s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[3.513s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[3.513s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.513s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[3.514s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/dds_fastrtps
+[3.514s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[3.515s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so
+[3.515s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[3.516s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[3.516s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[3.516s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.c
+[3.516s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_c.h
+[3.516s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.519s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so
+[3.521s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so
+[3.521s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[3.522s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[3.522s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[3.522s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[3.522s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.cpp
+[3.524s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so
+[3.527s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so
+[3.528s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.sh
+[3.528s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.dsv
+[3.528s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info
+[3.529s] -- Installing: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/PKG-INFO
+[3.530s] -- Installing: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/SOURCES.txt
+[3.531s] -- Installing: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/top_level.txt
+[3.531s] -- Installing: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/dependency_links.txt
+[3.531s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2
+[3.531s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg
+[3.532s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object_s.c
+[3.532s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py
+[3.532s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py
+[3.533s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.533s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c
+[3.533s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c
+[3.533s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.533s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so
+[3.534s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py
+[3.534s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.534s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.683s] Listing '/home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2'...
+[3.684s] Listing '/home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg'...
+[3.705s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.707s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.712s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.717s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so
+[3.718s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.idl
+[3.718s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg
+[3.718s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/config
+[3.719s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/config/wpb_home_controller.yaml
+[3.719s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/config/nav2_params.yaml
+[3.720s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch
+[3.722s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/world.launch.py
+[3.723s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_objects.launch.py
+[3.724s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_simple.launch.py
+[3.725s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_lidar.launch.py
+[3.726s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_head_up.launch.py
+[3.727s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_face.launch.py
+[3.728s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/map_tools.launch.py
+[3.728s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/slam.launch.py
+[3.728s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_mani.launch.py
+[3.729s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_table.launch.py
+[3.729s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb.launch.py
+[3.729s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home_mani.launch.py
+[3.729s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home.launch.py
+[3.729s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_scene_1.launch.py
+[3.730s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/demo_mani_ctrl.launch.py
+[3.730s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_mani.launch.py
+[3.730s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_objects.launch.py
+[3.731s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_balls.launch.py
+[3.731s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_persons.launch.py
+[3.731s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/navigation.launch.py
+[3.731s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch
+[3.731s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_nav.launch.py
+[3.731s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/7_slam.launch.py
+[3.732s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/12_home.launch.py
+[3.732s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.xml
+[3.733s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.py
+[3.733s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_waypoint_nav.launch.py
+[3.733s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.yaml
+[3.733s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds
+[3.734s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/light.world
+[3.734s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_simple.world
+[3.735s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_pose.world
+[3.735s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/simple.world
+[3.735s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/table.world
+[3.736s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/robocup_home.world
+[3.736s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models
+[3.737s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_head_up.model
+[3.737s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_mani.model
+[3.737s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/tea_table.model
+[3.738s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpr1.model
+[3.738s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/sofa.model
+[3.738s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls
+[3.739s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/blue_ball.model
+[3.739s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/red_ball.model
+[3.739s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/orange_ball.model
+[3.740s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/green_ball.model
+[3.740s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpv3.model
+[3.741s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles
+[3.741s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/red_bottle.model
+[3.742s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/green_bottle.model
+[3.742s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/cupboard.model
+[3.743s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bookshelft.model
+[3.743s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_lidar.model
+[3.744s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_2.model
+[3.744s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/table.model
+[3.744s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/chair.model
+[3.745s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home.model
+[3.745s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bed.model
+[3.746s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_1.model
+[3.746s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/woman.model
+[3.746s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/models/kai_standing.model
+[3.746s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes
+[3.747s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1
+[3.747s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/color.png
+[3.748s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/man_1.dae
+[3.748s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table.dae
+[3.755s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table
+[3.756s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table/Wood_Cherry_Original.jpg
+[3.756s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table
+[3.757s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table/Wood_Cherry_Original.jpg
+[3.757s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed
+[3.757s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Carpet_Pattern_Squares_Multi.jpg
+[3.758s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Wood_Bamboo.jpg
+[3.758s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bottle.stl
+[3.760s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard
+[3.760s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard/Wood_Veneer_02.jpg
+[3.760s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair
+[3.762s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair/Wood_Cherry_Original.jpg
+[3.762s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2
+[3.762s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/man_2.dae
+[3.763s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/color.png
+[3.763s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa.dae
+[3.763s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table.dae
+[3.763s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed.dae
+[3.764s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1
+[3.764s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/finger.dae
+[3.764s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/palm.dae
+[3.765s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/base.dae
+[3.767s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/fingertip.dae
+[3.767s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/forearm.dae
+[3.767s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/upperarm.dae
+[3.768s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/torso.dae
+[3.768s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair.dae
+[3.768s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa
+[3.768s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa/Carpet_Loop_Pattern.jpg
+[3.769s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai
+[3.769s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/kai_standing.dae
+[3.770s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/1931_LaFeiEr_D_512.png
+[3.770s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard.dae
+[3.771s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft
+[3.771s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft/Wood_Veneer_02.jpg
+[3.771s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3
+[3.771s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3/wpv3.dae
+[3.772s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft.dae
+[3.772s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home
+[3.772s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_mani.dae
+[3.773s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/forearm.dae
+[3.773s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_std.dae
+[3.773s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman
+[3.773s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/color.png
+[3.773s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/woman.dae
+[3.774s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz
+[3.774s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/pointcloud.rviz
+[3.774s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/slam.rviz
+[3.775s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/sensor.rviz
+[3.775s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/fetch.rviz
+[3.775s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi_3d.rviz
+[3.775s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/objects.rviz
+[3.776s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi.rviz
+[3.776s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/src
+[3.776s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/src/keyboard_vel_cmd.cpp
+[3.776s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/src/ball_random_move.cpp
+[3.776s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/src/objects_publisher.cpp
+[3.776s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/src/wpb_home_mani_sim.cpp
+[3.777s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/src/grab_object_sim.cpp
+[3.777s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/src/face_detector.py
+[3.777s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/msg
+[3.777s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg
+[3.778s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/maps
+[3.778s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/maps/.gitignore
+[3.778s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/face_detector.py
+[3.778s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim
+[3.779s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd
+[3.779s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move
+[3.779s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher
+[3.779s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim
+[3.780s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node
+[3.780s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node
+[3.782s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command
+[3.788s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data
+[3.792s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior
+[3.796s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data
+[3.800s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior
+[3.804s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation
+[3.808s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image
+[3.811s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv
+[3.815s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow
+[3.821s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect
+[3.826s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data
+[3.830s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects
+[3.834s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl
+[3.839s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object
+[3.846s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch
+[3.848s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client
+[3.850s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/ament_index/resource_index/package_run_dependencies/wpr_simulation2
+[3.851s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/ament_index/resource_index/parent_prefix_path/wpr_simulation2
+[3.851s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.sh
+[3.851s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.dsv
+[3.851s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.sh
+[3.852s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.dsv
+[3.852s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.bash
+[3.852s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.sh
+[3.853s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.zsh
+[3.854s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.dsv
+[3.854s] -- Installing: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/package.dsv
+[3.856s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/ament_index/resource_index/packages/wpr_simulation2
+[3.858s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport.cmake
+[3.858s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport-noconfig.cmake
+[3.861s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport.cmake
+[3.861s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.865s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cppExport.cmake
+[3.867s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.869s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.871s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport.cmake
+[3.871s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.873s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport.cmake
+[3.873s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport-noconfig.cmake
+[3.875s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport.cmake
+[3.875s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.877s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport.cmake
+[3.877s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport-noconfig.cmake
+[3.879s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport.cmake
+[3.880s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport-noconfig.cmake
+[3.880s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake-extras.cmake
+[3.881s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.881s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.881s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_libraries-extras.cmake
+[3.882s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_targets-extras.cmake
+[3.882s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.882s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.882s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config.cmake
+[3.882s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config-version.cmake
+[3.883s] -- Up-to-date: /home/zj/chapt2/chapt2_ws/install/wpr_simulation2/share/wpr_simulation2/package.xml
+[3.891s] Invoked command in '/home/zj/chapt2/chapt2_ws/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zj/chapt2/chapt2_ws/build/wpr_simulation2
