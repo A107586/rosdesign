@@ -1,0 +1,1200 @@
+[0.000000] (-) TimerEvent: {}
+[0.001876] (demo_cpp_topic) JobQueued: {'identifier': 'demo_cpp_topic', 'dependencies': OrderedDict()}
+[0.002159] (demo_python_topic) JobQueued: {'identifier': 'demo_python_topic', 'dependencies': OrderedDict()}
+[0.002255] (status_interfaces) JobQueued: {'identifier': 'status_interfaces', 'dependencies': OrderedDict()}
+[0.002320] (status_display) JobQueued: {'identifier': 'status_display', 'dependencies': OrderedDict([('status_interfaces', '/home/zj/chapt3/install/status_interfaces')])}
+[0.002400] (status_publisher) JobQueued: {'identifier': 'status_publisher', 'dependencies': OrderedDict([('status_interfaces', '/home/zj/chapt3/install/status_interfaces')])}
+[0.002472] (status_interfaces) JobStarted: {'identifier': 'status_interfaces'}
+[0.056742] (demo_cpp_topic) JobStarted: {'identifier': 'demo_cpp_topic'}
+[0.074261] (demo_python_topic) JobStarted: {'identifier': 'demo_python_topic'}
+[0.095596] (-) TimerEvent: {}
+[0.106090] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'cmake'}
+[0.108065] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/zj/chapt3/topic_practice_ws/src/status_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/zj/chapt3/install/status_interfaces'], 'cwd': '/home/zj/chapt3/build/status_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zj'), ('SSH_CLIENT', '192.168.149.1 62013 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zj'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b6d13a45-ce5e-4dc9-b964-5ed15fd16176.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2cc974af6afc822c.txt'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8babd96d7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zj/chapt3/build/status_interfaces'), ('SSH_CONNECTION', '192.168.149.1 62013 192.168.149.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.120431] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'cmake'}
+[0.126871] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '/home/zj/chapt3/topic_ws/src/demo_cpp_topic', '-DCMAKE_INSTALL_PREFIX=/home/zj/chapt3/install/demo_cpp_topic'], 'cwd': '/home/zj/chapt3/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zj'), ('SSH_CLIENT', '192.168.149.1 62013 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zj'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b6d13a45-ce5e-4dc9-b964-5ed15fd16176.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2cc974af6afc822c.txt'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8babd96d7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zj/chapt3/build/demo_cpp_topic'), ('SSH_CONNECTION', '192.168.149.1 62013 192.168.149.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.196315] (-) TimerEvent: {}
+[0.297753] (-) TimerEvent: {}
+[0.400014] (-) TimerEvent: {}
+[0.501224] (-) TimerEvent: {}
+[0.502520] (status_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.503806] (demo_cpp_topic) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.601949] (-) TimerEvent: {}
+[0.703359] (-) TimerEvent: {}
+[0.794857] (status_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.796299] (demo_cpp_topic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.805056] (-) TimerEvent: {}
+[0.843019] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.844083] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.906091] (-) TimerEvent: {}
+[1.007625] (-) TimerEvent: {}
+[1.108572] (-) TimerEvent: {}
+[1.120451] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.122067] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.150509] (status_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.150888] (demo_cpp_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.152084] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.152804] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.155327] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.156071] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.171335] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.171911] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.209085] (-) TimerEvent: {}
+[1.310400] (-) TimerEvent: {}
+[1.411624] (-) TimerEvent: {}
+[1.479516] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.482302] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.508076] (status_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.508879] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.510627] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.511313] (demo_cpp_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.511590] (-) TimerEvent: {}
+[1.512162] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.513868] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.531337] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.532676] (status_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.612023] (-) TimerEvent: {}
+[1.712707] (-) TimerEvent: {}
+[1.814226] (-) TimerEvent: {}
+[1.916137] (-) TimerEvent: {}
+[2.017541] (-) TimerEvent: {}
+[2.119082] (-) TimerEvent: {}
+[2.177709] (status_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.179190] (demo_cpp_topic) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.219396] (-) TimerEvent: {}
+[2.321755] (-) TimerEvent: {}
+[2.423649] (-) TimerEvent: {}
+[2.524595] (-) TimerEvent: {}
+[2.626332] (-) TimerEvent: {}
+[2.645024] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.647721] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.663941] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.694370] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.726919] (-) TimerEvent: {}
+[2.828564] (-) TimerEvent: {}
+[2.862069] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.880654] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.913683] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.917658] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.929074] (-) TimerEvent: {}
+[2.987131] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.029624] (-) TimerEvent: {}
+[3.047594] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.079366] (status_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[3.129932] (-) TimerEvent: {}
+[3.231735] (-) TimerEvent: {}
+[3.338158] (-) TimerEvent: {}
+[3.364490] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.382944] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.439176] (-) TimerEvent: {}
+[3.540255] (-) TimerEvent: {}
+[3.614255] (demo_python_topic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/demo_python_topic', 'build', '--build-base', '/home/zj/chapt3/build/demo_python_topic/build', 'install', '--record', '/home/zj/chapt3/build/demo_python_topic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zj/chapt3/topic_ws/src/demo_python_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'zj', 'SSH_CLIENT': '192.168.149.1 62013 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/zj', 'TERM_PROGRAM_VERSION': '1.100.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b6d13a45-ce5e-4dc9-b964-5ed15fd16176.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'zj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2cc974af6afc822c.txt', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e8babd96d7.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/zj/chapt3/build/demo_python_topic', 'SSH_CONNECTION': '192.168.149.1 62013 192.168.149.128 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zj/chapt3/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zj/chapt3/install/demo_python_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.641457] (-) TimerEvent: {}
+[3.743163] (-) TimerEvent: {}
+[3.807129] (demo_cpp_topic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.843661] (-) TimerEvent: {}
+[3.918346] (demo_cpp_topic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.944511] (-) TimerEvent: {}
+[4.046653] (-) TimerEvent: {}
+[4.085438] (demo_cpp_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.151176] (-) TimerEvent: {}
+[4.156851] (demo_cpp_topic) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.251692] (-) TimerEvent: {}
+[4.344107] (status_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.352089] (-) TimerEvent: {}
+[4.456374] (-) TimerEvent: {}
+[4.542963] (demo_cpp_topic) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.545152] (demo_cpp_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.556583] (-) TimerEvent: {}
+[4.670258] (-) TimerEvent: {}
+[4.772850] (-) TimerEvent: {}
+[4.837230] (demo_python_topic) StdoutLine: {'line': b'running egg_info\n'}
+[4.840475] (demo_python_topic) StdoutLine: {'line': b'creating ../../../build/demo_python_topic/demo_python_topic.egg-info\n'}
+[4.841254] (demo_python_topic) StdoutLine: {'line': b'writing ../../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO\n'}
+[4.842836] (demo_python_topic) StdoutLine: {'line': b'writing dependency_links to ../../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt\n'}
+[4.843342] (demo_python_topic) StdoutLine: {'line': b'writing entry points to ../../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt\n'}
+[4.843920] (demo_python_topic) StdoutLine: {'line': b'writing requirements to ../../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt\n'}
+[4.844411] (demo_python_topic) StdoutLine: {'line': b'writing top-level names to ../../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt\n'}
+[4.844903] (demo_python_topic) StdoutLine: {'line': b"writing manifest file '../../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[4.854960] (demo_python_topic) StdoutLine: {'line': b"reading manifest file '../../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[4.856213] (demo_python_topic) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.858567] (demo_python_topic) StdoutLine: {'line': b"writing manifest file '../../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[4.859654] (demo_python_topic) StdoutLine: {'line': b'running build\n'}
+[4.860088] (demo_python_topic) StdoutLine: {'line': b'running build_py\n'}
+[4.860585] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/build/demo_python_topic/build\n'}
+[4.861154] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/build/demo_python_topic/build/lib\n'}
+[4.861821] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/build/demo_python_topic/build/lib/demo_python_topic\n'}
+[4.862212] (demo_python_topic) StdoutLine: {'line': b'copying demo_python_topic/__init__.py -> /home/zj/chapt3/build/demo_python_topic/build/lib/demo_python_topic\n'}
+[4.862586] (demo_python_topic) StdoutLine: {'line': b'copying demo_python_topic/novel_sub_node.py -> /home/zj/chapt3/build/demo_python_topic/build/lib/demo_python_topic\n'}
+[4.862823] (demo_python_topic) StdoutLine: {'line': b'copying demo_python_topic/novel_pub_node.py -> /home/zj/chapt3/build/demo_python_topic/build/lib/demo_python_topic\n'}
+[4.863479] (demo_python_topic) StdoutLine: {'line': b'running install\n'}
+[4.865056] (demo_python_topic) StdoutLine: {'line': b'running install_lib\n'}
+[4.868318] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic\n'}
+[4.870061] (demo_python_topic) StdoutLine: {'line': b'copying /home/zj/chapt3/build/demo_python_topic/build/lib/demo_python_topic/__init__.py -> /home/zj/chapt3/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic\n'}
+[4.870653] (demo_python_topic) StdoutLine: {'line': b'copying /home/zj/chapt3/build/demo_python_topic/build/lib/demo_python_topic/novel_sub_node.py -> /home/zj/chapt3/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic\n'}
+[4.871128] (demo_python_topic) StdoutLine: {'line': b'copying /home/zj/chapt3/build/demo_python_topic/build/lib/demo_python_topic/novel_pub_node.py -> /home/zj/chapt3/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic\n'}
+[4.873092] (-) TimerEvent: {}
+[4.874057] (demo_python_topic) StdoutLine: {'line': b'byte-compiling /home/zj/chapt3/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__init__.py to __init__.cpython-310.pyc\n'}
+[4.874799] (demo_python_topic) StdoutLine: {'line': b'byte-compiling /home/zj/chapt3/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_sub_node.py to novel_sub_node.cpython-310.pyc\n'}
+[4.876767] (demo_python_topic) StdoutLine: {'line': b'byte-compiling /home/zj/chapt3/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py to novel_pub_node.cpython-310.pyc\n'}
+[4.878350] (demo_python_topic) StdoutLine: {'line': b'running install_data\n'}
+[4.878984] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/install/demo_python_topic/share/ament_index\n'}
+[4.879359] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/install/demo_python_topic/share/ament_index/resource_index\n'}
+[4.880067] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/install/demo_python_topic/share/ament_index/resource_index/packages\n'}
+[4.881402] (demo_python_topic) StdoutLine: {'line': b'copying resource/demo_python_topic -> /home/zj/chapt3/install/demo_python_topic/share/ament_index/resource_index/packages\n'}
+[4.881993] (demo_python_topic) StdoutLine: {'line': b'copying package.xml -> /home/zj/chapt3/install/demo_python_topic/share/demo_python_topic\n'}
+[4.882243] (demo_python_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.895281] (demo_python_topic) StdoutLine: {'line': b'Copying ../../../build/demo_python_topic/demo_python_topic.egg-info to /home/zj/chapt3/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info\n'}
+[4.900840] (demo_python_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[4.919567] (demo_cpp_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.925749] (demo_cpp_topic) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.973714] (-) TimerEvent: {}
+[4.995887] (demo_python_topic) StdoutLine: {'line': b'Installing novel_pub_node script to /home/zj/chapt3/install/demo_python_topic/lib/demo_python_topic\n'}
+[4.996910] (demo_python_topic) StdoutLine: {'line': b'Installing novel_sub_node script to /home/zj/chapt3/install/demo_python_topic/lib/demo_python_topic\n'}
+[4.997847] (demo_python_topic) StdoutLine: {'line': b"writing list of installed files to '/home/zj/chapt3/build/demo_python_topic/install.log'\n"}
+[5.074305] (-) TimerEvent: {}
+[5.132315] (demo_python_topic) CommandEnded: {'returncode': 0}
+[5.174480] (-) TimerEvent: {}
+[5.212582] (demo_python_topic) JobEnded: {'identifier': 'demo_python_topic', 'rc': 0}
+[5.274941] (-) TimerEvent: {}
+[5.282992] (demo_cpp_topic) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.325154] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.375512] (-) TimerEvent: {}
+[5.377666] (demo_cpp_topic) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[5.475980] (-) TimerEvent: {}
+[5.580875] (-) TimerEvent: {}
+[5.637374] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.681116] (-) TimerEvent: {}
+[5.781978] (-) TimerEvent: {}
+[5.886238] (-) TimerEvent: {}
+[5.987856] (-) TimerEvent: {}
+[6.022175] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.022983] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.023471] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.025755] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.030179] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.030639] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.033250] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.042678] (demo_cpp_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.089111] (-) TimerEvent: {}
+[6.093444] (demo_cpp_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[6.117317] (demo_cpp_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/zj/chapt3/build/demo_cpp_topic\n'}
+[6.163407] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[6.165232] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'build'}
+[6.174418] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zj/chapt3/build/demo_cpp_topic', '--', '-j8', '-l8'], 'cwd': '/home/zj/chapt3/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zj'), ('SSH_CLIENT', '192.168.149.1 62013 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zj'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b6d13a45-ce5e-4dc9-b964-5ed15fd16176.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2cc974af6afc822c.txt'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8babd96d7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zj/chapt3/build/demo_cpp_topic'), ('SSH_CONNECTION', '192.168.149.1 62013 192.168.149.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.189961] (-) TimerEvent: {}
+[6.294834] (-) TimerEvent: {}
+[6.381557] (demo_cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o\x1b[0m\n'}
+[6.383270] (demo_cpp_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o\x1b[0m\n'}
+[6.392488] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.395125] (-) TimerEvent: {}
+[6.497187] (-) TimerEvent: {}
+[6.514159] (status_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[6.525749] (status_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.597529] (-) TimerEvent: {}
+[6.671074] (status_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[6.672067] (status_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.672864] (status_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.673201] (status_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.700390] (-) TimerEvent: {}
+[6.785131] (status_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.803541] (-) TimerEvent: {}
+[6.905283] (-) TimerEvent: {}
+[6.989280] (status_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.010097] (-) TimerEvent: {}
+[7.110840] (-) TimerEvent: {}
+[7.133028] (status_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.139221] (status_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.148587] (status_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.211696] (-) TimerEvent: {}
+[7.313470] (status_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[7.314166] (-) TimerEvent: {}
+[7.359570] (status_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/zj/chapt3/build/status_interfaces\n'}
+[7.388406] (status_interfaces) CommandEnded: {'returncode': 0}
+[7.391687] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'build'}
+[7.400891] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zj/chapt3/build/status_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/zj/chapt3/build/status_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zj'), ('SSH_CLIENT', '192.168.149.1 62013 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zj'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b6d13a45-ce5e-4dc9-b964-5ed15fd16176.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2cc974af6afc822c.txt'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8babd96d7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zj/chapt3/build/status_interfaces'), ('SSH_CONNECTION', '192.168.149.1 62013 192.168.149.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.414459] (-) TimerEvent: {}
+[7.516054] (-) TimerEvent: {}
+[7.568689] (status_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.608515] (status_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.620980] (-) TimerEvent: {}
+[7.653108] (status_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_status_interfaces\n'}
+[7.721712] (-) TimerEvent: {}
+[7.825014] (-) TimerEvent: {}
+[7.926276] (-) TimerEvent: {}
+[8.037964] (-) TimerEvent: {}
+[8.139147] (-) TimerEvent: {}
+[8.241865] (-) TimerEvent: {}
+[8.344822] (-) TimerEvent: {}
+[8.448227] (-) TimerEvent: {}
+[8.552576] (-) TimerEvent: {}
+[8.654032] (-) TimerEvent: {}
+[8.759626] (-) TimerEvent: {}
+[8.860938] (-) TimerEvent: {}
+[8.914514] (status_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[8.917702] (status_interfaces) StdoutLine: {'line': b'creating status_interfaces.egg-info\n'}
+[8.918656] (status_interfaces) StdoutLine: {'line': b'writing status_interfaces.egg-info/PKG-INFO\n'}
+[8.919851] (status_interfaces) StdoutLine: {'line': b'writing dependency_links to status_interfaces.egg-info/dependency_links.txt\n'}
+[8.921194] (status_interfaces) StdoutLine: {'line': b'writing top-level names to status_interfaces.egg-info/top_level.txt\n'}
+[8.922378] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[8.930868] (status_interfaces) StdoutLine: {'line': b"reading manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[8.933062] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[8.961994] (-) TimerEvent: {}
+[9.064790] (-) TimerEvent: {}
+[9.066845] (status_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_status_interfaces_egg\n'}
+[9.150295] (status_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o\x1b[0m\n'}
+[9.165702] (-) TimerEvent: {}
+[9.179437] (status_interfaces) StdoutLine: {'line': b'[  9%] Built target status_interfaces__cpp\n'}
+[9.222277] (status_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.225114] (status_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[9.225622] (status_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.269280] (-) TimerEvent: {}
+[9.370801] (-) TimerEvent: {}
+[9.396472] (status_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[9.471611] (-) TimerEvent: {}
+[9.575274] (-) TimerEvent: {}
+[9.586828] (status_interfaces) StdoutLine: {'line': b'[ 22%] Built target status_interfaces__rosidl_generator_c\n'}
+[9.633570] (status_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.635212] (status_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.636991] (status_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.676516] (-) TimerEvent: {}
+[9.778347] (-) TimerEvent: {}
+[9.881364] (-) TimerEvent: {}
+[9.984782] (-) TimerEvent: {}
+[10.091819] (-) TimerEvent: {}
+[10.192813] (-) TimerEvent: {}
+[10.293800] (-) TimerEvent: {}
+[10.397949] (-) TimerEvent: {}
+[10.500926] (-) TimerEvent: {}
+[10.607949] (-) TimerEvent: {}
+[10.714883] (-) TimerEvent: {}
+[10.816225] (-) TimerEvent: {}
+[10.844393] (status_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o\x1b[0m\n'}
+[10.919087] (-) TimerEvent: {}
+[10.927555] (status_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o\x1b[0m\n'}
+[10.928238] (status_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[11.019440] (-) TimerEvent: {}
+[11.121538] (-) TimerEvent: {}
+[11.224588] (-) TimerEvent: {}
+[11.226488] (status_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[11.325636] (-) TimerEvent: {}
+[11.396207] (status_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.396784] (status_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o\x1b[0m\n'}
+[11.398091] (status_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o\x1b[0m\n'}
+[11.426589] (-) TimerEvent: {}
+[11.531675] (-) TimerEvent: {}
+[11.606524] (status_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.632688] (-) TimerEvent: {}
+[11.733784] (-) TimerEvent: {}
+[11.796706] (status_interfaces) StdoutLine: {'line': b'[ 58%] Built target status_interfaces__rosidl_typesupport_introspection_c\n'}
+[11.833962] (-) TimerEvent: {}
+[11.873401] (status_interfaces) StdoutLine: {'line': b'[ 58%] Built target status_interfaces__rosidl_typesupport_c\n'}
+[11.934809] (-) TimerEvent: {}
+[12.038801] (-) TimerEvent: {}
+[12.140932] (-) TimerEvent: {}
+[12.242582] (-) TimerEvent: {}
+[12.344859] (-) TimerEvent: {}
+[12.446029] (-) TimerEvent: {}
+[12.547922] (-) TimerEvent: {}
+[12.649100] (-) TimerEvent: {}
+[12.750846] (-) TimerEvent: {}
+[12.791356] (status_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.851723] (-) TimerEvent: {}
+[12.953809] (-) TimerEvent: {}
+[12.984833] (status_interfaces) StdoutLine: {'line': b'[ 61%] Built target status_interfaces__rosidl_typesupport_cpp\n'}
+[13.054065] (-) TimerEvent: {}
+[13.156467] (-) TimerEvent: {}
+[13.257419] (-) TimerEvent: {}
+[13.358547] (-) TimerEvent: {}
+[13.459565] (-) TimerEvent: {}
+[13.561127] (-) TimerEvent: {}
+[13.662358] (-) TimerEvent: {}
+[13.763145] (-) TimerEvent: {}
+[13.864908] (-) TimerEvent: {}
+[13.965751] (-) TimerEvent: {}
+[14.066650] (-) TimerEvent: {}
+[14.168181] (-) TimerEvent: {}
+[14.193962] (status_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[14.228364] (status_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.268864] (-) TimerEvent: {}
+[14.369991] (-) TimerEvent: {}
+[14.408591] (status_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.470308] (-) TimerEvent: {}
+[14.502011] (status_interfaces) StdoutLine: {'line': b'[ 70%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[14.518029] (status_interfaces) StdoutLine: {'line': b'[ 70%] Built target status_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[14.571205] (-) TimerEvent: {}
+[14.672735] (-) TimerEvent: {}
+[14.691090] (status_interfaces) StdoutLine: {'line': b'[ 70%] Built target status_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[14.763207] (status_interfaces) StdoutLine: {'line': b'[ 70%] Built target status_interfaces\n'}
+[14.772989] (-) TimerEvent: {}
+[14.840012] (status_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.873970] (-) TimerEvent: {}
+[14.975204] (-) TimerEvent: {}
+[15.076609] (-) TimerEvent: {}
+[15.178308] (-) TimerEvent: {}
+[15.279416] (-) TimerEvent: {}
+[15.381033] (-) TimerEvent: {}
+[15.482623] (-) TimerEvent: {}
+[15.583521] (-) TimerEvent: {}
+[15.684959] (-) TimerEvent: {}
+[15.786109] (-) TimerEvent: {}
+[15.887729] (-) TimerEvent: {}
+[15.989401] (-) TimerEvent: {}
+[16.091338] (-) TimerEvent: {}
+[16.192328] (-) TimerEvent: {}
+[16.293231] (-) TimerEvent: {}
+[16.396338] (-) TimerEvent: {}
+[16.439349] (status_interfaces) StdoutLine: {'line': b'[ 74%] Built target status_interfaces__py\n'}
+[16.496875] (-) TimerEvent: {}
+[16.512515] (status_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o\x1b[0m\n'}
+[16.597277] (-) TimerEvent: {}
+[16.698149] (-) TimerEvent: {}
+[16.799421] (-) TimerEvent: {}
+[16.901149] (-) TimerEvent: {}
+[17.002842] (-) TimerEvent: {}
+[17.069731] (status_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/status_interfaces/libstatus_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[17.103355] (-) TimerEvent: {}
+[17.205506] (-) TimerEvent: {}
+[17.267932] (status_interfaces) StdoutLine: {'line': b'[ 80%] Built target status_interfaces__rosidl_generator_py\n'}
+[17.306249] (-) TimerEvent: {}
+[17.341894] (status_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.343248] (status_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.349098] (status_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[17.407246] (-) TimerEvent: {}
+[17.509333] (-) TimerEvent: {}
+[17.611392] (-) TimerEvent: {}
+[17.712633] (-) TimerEvent: {}
+[17.781871] (status_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.791960] (status_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.813260] (-) TimerEvent: {}
+[17.915407] (-) TimerEvent: {}
+[17.948318] (status_interfaces) StdoutLine: {'line': b'[ 96%] Built target status_interfaces__rosidl_typesupport_c__pyext\n'}
+[17.959668] (status_interfaces) StdoutLine: {'line': b'[ 96%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[17.979137] (status_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.016043] (-) TimerEvent: {}
+[18.117029] (-) TimerEvent: {}
+[18.121636] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.164403] (status_interfaces) CommandEnded: {'returncode': 0}
+[18.167121] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'install'}
+[18.200226] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zj/chapt3/build/status_interfaces'], 'cwd': '/home/zj/chapt3/build/status_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zj'), ('SSH_CLIENT', '192.168.149.1 62013 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zj'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b6d13a45-ce5e-4dc9-b964-5ed15fd16176.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2cc974af6afc822c.txt'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8babd96d7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zj/chapt3/build/status_interfaces'), ('SSH_CONNECTION', '192.168.149.1 62013 192.168.149.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.217875] (-) TimerEvent: {}
+[18.229843] (status_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.231732] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces\n'}
+[18.232637] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[18.233468] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[18.234428] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.235965] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[18.236518] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h\n'}
+[18.237142] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h\n'}
+[18.237297] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c\n'}
+[18.237594] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h\n'}
+[18.238334] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h\n'}
+[18.238899] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/environment/library_path.sh\n'}
+[18.239883] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/environment/library_path.dsv\n'}
+[18.240528] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so\n'}
+[18.241198] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""\n'}
+[18.241666] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[18.242140] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[18.242930] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[18.243345] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[18.244305] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.244768] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[18.245215] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[18.246011] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[18.246267] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[18.246498] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[18.246718] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[18.247259] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c\n'}
+[18.247678] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.248170] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[18.249072] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[18.249792] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so\n'}
+[18.250847] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[18.251537] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[18.252279] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[18.253078] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[18.254209] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[18.254535] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[18.254817] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp\n'}
+[18.255367] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp\n'}
+[18.255815] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp\n'}
+[18.256124] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp\n'}
+[18.256360] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[18.256893] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[18.257316] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.258013] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[18.258234] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps\n'}
+[18.258772] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.259183] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.259654] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[18.260037] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[18.260389] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[18.260831] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[18.261280] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.261747] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp\n'}
+[18.262405] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[18.262915] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[18.263620] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so\n'}
+[18.263881] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[18.264239] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh\n'}
+[18.264589] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv\n'}
+[18.264916] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info\n'}
+[18.265758] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[18.266514] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[18.266994] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[18.267279] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[18.267423] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces\n'}
+[18.267779] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.268130] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[18.268744] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg\n'}
+[18.269435] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py\n'}
+[18.269666] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c\n'}
+[18.270091] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py\n'}
+[18.270220] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.270433] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[18.270712] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.270943] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py\n'}
+[18.271166] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[18.271390] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so\n'}
+[18.318772] (-) TimerEvent: {}
+[18.419930] (-) TimerEvent: {}
+[18.429249] (status_interfaces) StdoutLine: {'line': b"Listing '/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...\n"}
+[18.429823] (status_interfaces) StdoutLine: {'line': b"Compiling '/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py'...\n"}
+[18.430108] (status_interfaces) StdoutLine: {'line': b"Listing '/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...\n"}
+[18.430346] (status_interfaces) StdoutLine: {'line': b"Compiling '/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py'...\n"}
+[18.430725] (status_interfaces) StdoutLine: {'line': b"Compiling '/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py'...\n"}
+[18.448566] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.450492] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[18.451755] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.453289] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[18.454860] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.455963] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[18.456634] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so\n'}
+[18.457923] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""\n'}
+[18.458788] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl\n'}
+[18.459080] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg\n'}
+[18.459882] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces\n'}
+[18.460233] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces\n'}
+[18.461245] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh\n'}
+[18.461728] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv\n'}
+[18.462636] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/environment/path.sh\n'}
+[18.463003] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/environment/path.dsv\n'}
+[18.463234] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/local_setup.bash\n'}
+[18.463776] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/local_setup.sh\n'}
+[18.464639] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/local_setup.zsh\n'}
+[18.465368] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/local_setup.dsv\n'}
+[18.465778] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/package.dsv\n'}
+[18.467494] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces\n'}
+[18.469428] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake\n'}
+[18.470832] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[18.471187] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[18.471410] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[18.471833] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[18.472761] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[18.473321] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[18.474391] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[18.475646] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake\n'}
+[18.476103] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[18.476932] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[18.477340] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[18.477625] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[18.478202] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[18.478881] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[18.479870] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake\n'}
+[18.480265] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[18.480730] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[18.481264] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.481453] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.481595] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.481787] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.482428] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[18.482975] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[18.483837] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake\n'}
+[18.484231] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake\n'}
+[18.484494] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_interfaces/share/status_interfaces/package.xml\n'}
+[18.494548] (status_interfaces) CommandEnded: {'returncode': 0}
+[18.522346] (-) TimerEvent: {}
+[18.569148] (status_interfaces) JobEnded: {'identifier': 'status_interfaces', 'rc': 0}
+[18.572306] (status_display) JobStarted: {'identifier': 'status_display'}
+[18.580469] (status_publisher) JobStarted: {'identifier': 'status_publisher'}
+[18.609274] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'cmake'}
+[18.614068] (status_display) Command: {'cmd': ['/usr/bin/cmake', '/home/zj/chapt3/topic_practice_ws/src/status_display', '-DCMAKE_INSTALL_PREFIX=/home/zj/chapt3/install/status_display'], 'cwd': '/home/zj/chapt3/build/status_display', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zj'), ('SSH_CLIENT', '192.168.149.1 62013 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zj/chapt3/install/status_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zj'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b6d13a45-ce5e-4dc9-b964-5ed15fd16176.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2cc974af6afc822c.txt'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8babd96d7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zj/chapt3/install/status_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zj/chapt3/build/status_display'), ('SSH_CONNECTION', '192.168.149.1 62013 192.168.149.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zj/chapt3/install/status_interfaces:/opt/ros/humble')]), 'shell': False}
+[18.623772] (-) TimerEvent: {}
+[18.725466] (-) TimerEvent: {}
+[18.827196] (-) TimerEvent: {}
+[18.890993] (status_display) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[18.927614] (-) TimerEvent: {}
+[19.028464] (-) TimerEvent: {}
+[19.129584] (-) TimerEvent: {}
+[19.209267] (status_display) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[19.231586] (-) TimerEvent: {}
+[19.237188] (status_display) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[19.331997] (-) TimerEvent: {}
+[19.433938] (-) TimerEvent: {}
+[19.522227] (status_display) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[19.534263] (-) TimerEvent: {}
+[19.552638] (status_display) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[19.553966] (status_display) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[19.557356] (status_display) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[19.567016] (status_display) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[19.634601] (-) TimerEvent: {}
+[19.735686] (-) TimerEvent: {}
+[19.837571] (-) TimerEvent: {}
+[19.938433] (status_display) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[19.939164] (-) TimerEvent: {}
+[19.966449] (status_display) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[19.967604] (status_display) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[19.969254] (status_display) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[19.978001] (status_display) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[20.040170] (-) TimerEvent: {}
+[20.141441] (-) TimerEvent: {}
+[20.242994] (-) TimerEvent: {}
+[20.344609] (-) TimerEvent: {}
+[20.446164] (-) TimerEvent: {}
+[20.542590] (status_display) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[20.546596] (-) TimerEvent: {}
+[20.648298] (-) TimerEvent: {}
+[20.749042] (-) TimerEvent: {}
+[20.851564] (-) TimerEvent: {}
+[20.925352] (status_display) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[20.952325] (-) TimerEvent: {}
+[21.054063] (-) TimerEvent: {}
+[21.077501] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[21.094773] (status_display) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[21.128345] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[21.154974] (-) TimerEvent: {}
+[21.174187] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.234984] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[21.255993] (-) TimerEvent: {}
+[21.357717] (-) TimerEvent: {}
+[21.411480] (status_display) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[21.422699] (status_display) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[21.458414] (-) TimerEvent: {}
+[21.559444] (-) TimerEvent: {}
+[21.660954] (-) TimerEvent: {}
+[21.727023] (status_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/status_publisher', 'build', '--build-base', '/home/zj/chapt3/build/status_publisher/build', 'install', '--record', '/home/zj/chapt3/build/status_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zj/chapt3/topic_practice_ws/src/status_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'zj', 'SSH_CLIENT': '192.168.149.1 62013 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/zj/chapt3/install/status_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/zj', 'TERM_PROGRAM_VERSION': '1.100.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b6d13a45-ce5e-4dc9-b964-5ed15fd16176.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'zj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts', 'PAPERSIZE': 'a4', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2cc974af6afc822c.txt', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e8babd96d7.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/zj/chapt3/install/status_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/zj/chapt3/build/status_publisher', 'SSH_CONNECTION': '192.168.149.1 62013 192.168.149.128 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zj/chapt3/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages:/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/zj/chapt3/install/status_interfaces'}, 'shell': False}
+[21.733528] (status_display) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[21.761295] (-) TimerEvent: {}
+[21.850100] (status_display) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[21.861991] (-) TimerEvent: {}
+[21.963263] (-) TimerEvent: {}
+[21.992729] (status_display) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[22.016683] (status_display) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[22.064566] (-) TimerEvent: {}
+[22.165433] (-) TimerEvent: {}
+[22.271003] (-) TimerEvent: {}
+[22.311656] (status_display) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[22.313185] (status_display) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[22.371233] (-) TimerEvent: {}
+[22.472578] (-) TimerEvent: {}
+[22.574534] (-) TimerEvent: {}
+[22.609636] (status_display) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[22.614598] (status_display) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[22.675039] (-) TimerEvent: {}
+[22.776860] (-) TimerEvent: {}
+[22.819388] (status_display) StdoutLine: {'line': b'-- Found status_interfaces: 0.0.0 (/home/zj/chapt3/install/status_interfaces/share/status_interfaces/cmake)\n'}
+[22.838815] (status_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[22.842787] (status_publisher) StdoutLine: {'line': b'creating ../../../build/status_publisher/status_publisher.egg-info\n'}
+[22.843970] (status_publisher) StdoutLine: {'line': b'writing ../../../build/status_publisher/status_publisher.egg-info/PKG-INFO\n'}
+[22.845819] (status_publisher) StdoutLine: {'line': b'writing dependency_links to ../../../build/status_publisher/status_publisher.egg-info/dependency_links.txt\n'}
+[22.846236] (status_publisher) StdoutLine: {'line': b'writing entry points to ../../../build/status_publisher/status_publisher.egg-info/entry_points.txt\n'}
+[22.847210] (status_publisher) StdoutLine: {'line': b'writing requirements to ../../../build/status_publisher/status_publisher.egg-info/requires.txt\n'}
+[22.849277] (status_publisher) StdoutLine: {'line': b'writing top-level names to ../../../build/status_publisher/status_publisher.egg-info/top_level.txt\n'}
+[22.849901] (status_publisher) StdoutLine: {'line': b"writing manifest file '../../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'\n"}
+[22.860606] (status_publisher) StdoutLine: {'line': b"reading manifest file '../../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'\n"}
+[22.861939] (status_publisher) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[22.864071] (status_publisher) StdoutLine: {'line': b"writing manifest file '../../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'\n"}
+[22.865372] (status_publisher) StdoutLine: {'line': b'running build\n'}
+[22.866115] (status_publisher) StdoutLine: {'line': b'running build_py\n'}
+[22.867472] (status_publisher) StdoutLine: {'line': b'creating /home/zj/chapt3/build/status_publisher/build\n'}
+[22.867912] (status_publisher) StdoutLine: {'line': b'creating /home/zj/chapt3/build/status_publisher/build/lib\n'}
+[22.868166] (status_publisher) StdoutLine: {'line': b'creating /home/zj/chapt3/build/status_publisher/build/lib/status_publisher\n'}
+[22.868400] (status_publisher) StdoutLine: {'line': b'copying status_publisher/sys_status_pub.py -> /home/zj/chapt3/build/status_publisher/build/lib/status_publisher\n'}
+[22.869920] (status_publisher) StdoutLine: {'line': b'copying status_publisher/__init__.py -> /home/zj/chapt3/build/status_publisher/build/lib/status_publisher\n'}
+[22.872728] (status_publisher) StdoutLine: {'line': b'running install\n'}
+[22.874377] (status_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[22.877085] (status_publisher) StdoutLine: {'line': b'creating /home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages/status_publisher\n'}
+[22.878130] (-) TimerEvent: {}
+[22.878936] (status_publisher) StdoutLine: {'line': b'copying /home/zj/chapt3/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages/status_publisher\n'}
+[22.879890] (status_publisher) StdoutLine: {'line': b'copying /home/zj/chapt3/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages/status_publisher\n'}
+[22.881117] (status_publisher) StdoutLine: {'line': b'byte-compiling /home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc\n'}
+[22.885538] (status_publisher) StdoutLine: {'line': b'byte-compiling /home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages/status_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[22.887040] (status_publisher) StdoutLine: {'line': b'running install_data\n'}
+[22.889348] (status_publisher) StdoutLine: {'line': b'creating /home/zj/chapt3/install/status_publisher/share/ament_index\n'}
+[22.890398] (status_publisher) StdoutLine: {'line': b'creating /home/zj/chapt3/install/status_publisher/share/ament_index/resource_index\n'}
+[22.890823] (status_publisher) StdoutLine: {'line': b'creating /home/zj/chapt3/install/status_publisher/share/ament_index/resource_index/packages\n'}
+[22.891691] (status_publisher) StdoutLine: {'line': b'copying resource/status_publisher -> /home/zj/chapt3/install/status_publisher/share/ament_index/resource_index/packages\n'}
+[22.893382] (status_publisher) StdoutLine: {'line': b'copying package.xml -> /home/zj/chapt3/install/status_publisher/share/status_publisher\n'}
+[22.894570] (status_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.913121] (status_publisher) StdoutLine: {'line': b'Copying ../../../build/status_publisher/status_publisher.egg-info to /home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info\n'}
+[22.921109] (status_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[22.978634] (-) TimerEvent: {}
+[23.012791] (status_display) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[23.075701] (status_publisher) StdoutLine: {'line': b'Installing sys_status_pub script to /home/zj/chapt3/install/status_publisher/lib/status_publisher\n'}
+[23.077833] (status_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/zj/chapt3/build/status_publisher/install.log'\n"}
+[23.079235] (-) TimerEvent: {}
+[23.180998] (-) TimerEvent: {}
+[23.203949] (status_publisher) CommandEnded: {'returncode': 0}
+[23.232013] (status_publisher) JobEnded: {'identifier': 'status_publisher', 'rc': 0}
+[23.281590] (-) TimerEvent: {}
+[23.380526] (status_display) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[23.381210] (status_display) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[23.381397] (status_display) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[23.381804] (status_display) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[23.382289] (-) TimerEvent: {}
+[23.384002] (status_display) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[23.384463] (status_display) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[23.386601] (status_display) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[23.393210] (status_display) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.439393] (status_display) StdoutLine: {'line': b'-- Generating done\n'}
+[23.455260] (status_display) StdoutLine: {'line': b'-- Build files have been written to: /home/zj/chapt3/build/status_display\n'}
+[23.483077] (-) TimerEvent: {}
+[23.502708] (status_display) CommandEnded: {'returncode': 0}
+[23.508091] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'build'}
+[23.513903] (status_display) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zj/chapt3/build/status_display', '--', '-j8', '-l8'], 'cwd': '/home/zj/chapt3/build/status_display', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zj'), ('SSH_CLIENT', '192.168.149.1 62013 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zj/chapt3/install/status_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zj'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b6d13a45-ce5e-4dc9-b964-5ed15fd16176.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2cc974af6afc822c.txt'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8babd96d7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zj/chapt3/install/status_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zj/chapt3/build/status_display'), ('SSH_CONNECTION', '192.168.149.1 62013 192.168.149.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zj/chapt3/install/status_interfaces:/opt/ros/humble')]), 'shell': False}
+[23.583790] (-) TimerEvent: {}
+[23.685586] (-) TimerEvent: {}
+[23.714514] (status_display) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o\x1b[0m\n'}
+[23.715175] (status_display) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o\x1b[0m\n'}
+[23.786637] (-) TimerEvent: {}
+[23.888561] (-) TimerEvent: {}
+[23.989750] (-) TimerEvent: {}
+[24.091679] (-) TimerEvent: {}
+[24.193087] (-) TimerEvent: {}
+[24.294034] (-) TimerEvent: {}
+[24.395918] (-) TimerEvent: {}
+[24.497188] (-) TimerEvent: {}
+[24.599022] (-) TimerEvent: {}
+[24.701755] (-) TimerEvent: {}
+[24.803148] (-) TimerEvent: {}
+[24.904729] (-) TimerEvent: {}
+[25.006040] (-) TimerEvent: {}
+[25.107096] (-) TimerEvent: {}
+[25.208771] (-) TimerEvent: {}
+[25.309764] (-) TimerEvent: {}
+[25.410576] (-) TimerEvent: {}
+[25.512155] (-) TimerEvent: {}
+[25.613275] (-) TimerEvent: {}
+[25.714339] (-) TimerEvent: {}
+[25.816568] (-) TimerEvent: {}
+[25.917630] (-) TimerEvent: {}
+[26.018546] (-) TimerEvent: {}
+[26.120476] (-) TimerEvent: {}
+[26.221828] (-) TimerEvent: {}
+[26.323041] (-) TimerEvent: {}
+[26.424135] (-) TimerEvent: {}
+[26.526323] (-) TimerEvent: {}
+[26.628113] (-) TimerEvent: {}
+[26.729552] (-) TimerEvent: {}
+[26.831279] (-) TimerEvent: {}
+[26.933035] (-) TimerEvent: {}
+[27.034610] (-) TimerEvent: {}
+[27.136453] (-) TimerEvent: {}
+[27.238673] (-) TimerEvent: {}
+[27.339923] (-) TimerEvent: {}
+[27.441674] (-) TimerEvent: {}
+[27.542560] (-) TimerEvent: {}
+[27.643702] (-) TimerEvent: {}
+[27.745611] (-) TimerEvent: {}
+[27.847025] (-) TimerEvent: {}
+[27.948949] (-) TimerEvent: {}
+[28.050296] (-) TimerEvent: {}
+[28.152017] (-) TimerEvent: {}
+[28.253336] (-) TimerEvent: {}
+[28.354600] (-) TimerEvent: {}
+[28.456189] (-) TimerEvent: {}
+[28.557699] (-) TimerEvent: {}
+[28.658814] (-) TimerEvent: {}
+[28.759746] (-) TimerEvent: {}
+[28.861071] (-) TimerEvent: {}
+[28.962324] (-) TimerEvent: {}
+[29.063185] (-) TimerEvent: {}
+[29.164107] (-) TimerEvent: {}
+[29.265237] (-) TimerEvent: {}
+[29.366715] (-) TimerEvent: {}
+[29.467618] (-) TimerEvent: {}
+[29.568589] (-) TimerEvent: {}
+[29.669832] (-) TimerEvent: {}
+[29.771681] (-) TimerEvent: {}
+[29.872874] (-) TimerEvent: {}
+[29.974948] (-) TimerEvent: {}
+[30.075947] (-) TimerEvent: {}
+[30.177431] (-) TimerEvent: {}
+[30.278981] (-) TimerEvent: {}
+[30.380780] (-) TimerEvent: {}
+[30.483536] (-) TimerEvent: {}
+[30.584690] (-) TimerEvent: {}
+[30.685624] (-) TimerEvent: {}
+[30.787226] (-) TimerEvent: {}
+[30.888392] (-) TimerEvent: {}
+[30.990551] (-) TimerEvent: {}
+[31.092011] (-) TimerEvent: {}
+[31.193275] (-) TimerEvent: {}
+[31.294347] (-) TimerEvent: {}
+[31.396023] (-) TimerEvent: {}
+[31.497695] (-) TimerEvent: {}
+[31.599345] (-) TimerEvent: {}
+[31.700572] (-) TimerEvent: {}
+[31.803192] (-) TimerEvent: {}
+[31.904761] (-) TimerEvent: {}
+[32.006035] (-) TimerEvent: {}
+[32.107416] (-) TimerEvent: {}
+[32.209329] (-) TimerEvent: {}
+[32.310515] (-) TimerEvent: {}
+[32.412121] (-) TimerEvent: {}
+[32.513492] (-) TimerEvent: {}
+[32.614685] (-) TimerEvent: {}
+[32.716067] (-) TimerEvent: {}
+[32.819507] (-) TimerEvent: {}
+[32.838603] (status_display) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable hello_qt\x1b[0m\n'}
+[32.919813] (-) TimerEvent: {}
+[33.023170] (-) TimerEvent: {}
+[33.123986] (-) TimerEvent: {}
+[33.229606] (-) TimerEvent: {}
+[33.331955] (-) TimerEvent: {}
+[33.433614] (-) TimerEvent: {}
+[33.534730] (-) TimerEvent: {}
+[33.635963] (-) TimerEvent: {}
+[33.738042] (-) TimerEvent: {}
+[33.839413] (-) TimerEvent: {}
+[33.942857] (-) TimerEvent: {}
+[34.045280] (-) TimerEvent: {}
+[34.146622] (-) TimerEvent: {}
+[34.249910] (-) TimerEvent: {}
+[34.352762] (-) TimerEvent: {}
+[34.357990] (status_display) StdoutLine: {'line': b'[ 75%] Built target hello_qt\n'}
+[34.453505] (-) TimerEvent: {}
+[34.555122] (-) TimerEvent: {}
+[34.656520] (-) TimerEvent: {}
+[34.758651] (-) TimerEvent: {}
+[34.861626] (-) TimerEvent: {}
+[34.964130] (-) TimerEvent: {}
+[35.066635] (-) TimerEvent: {}
+[35.167874] (-) TimerEvent: {}
+[35.272340] (-) TimerEvent: {}
+[35.374790] (-) TimerEvent: {}
+[35.476152] (-) TimerEvent: {}
+[35.578004] (-) TimerEvent: {}
+[35.680267] (-) TimerEvent: {}
+[35.782394] (-) TimerEvent: {}
+[35.883801] (-) TimerEvent: {}
+[35.972644] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable turtle_circle\x1b[0m\n'}
+[35.984751] (-) TimerEvent: {}
+[36.085712] (-) TimerEvent: {}
+[36.190151] (-) TimerEvent: {}
+[36.292870] (-) TimerEvent: {}
+[36.396355] (-) TimerEvent: {}
+[36.498968] (-) TimerEvent: {}
+[36.600504] (-) TimerEvent: {}
+[36.701986] (-) TimerEvent: {}
+[36.802802] (-) TimerEvent: {}
+[36.904924] (-) TimerEvent: {}
+[37.008786] (-) TimerEvent: {}
+[37.094476] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] Built target turtle_circle\n'}
+[37.109745] (-) TimerEvent: {}
+[37.212535] (-) TimerEvent: {}
+[37.315987] (-) TimerEvent: {}
+[37.417850] (-) TimerEvent: {}
+[37.519171] (-) TimerEvent: {}
+[37.620192] (-) TimerEvent: {}
+[37.721418] (-) TimerEvent: {}
+[37.823213] (-) TimerEvent: {}
+[37.924753] (-) TimerEvent: {}
+[38.026199] (-) TimerEvent: {}
+[38.127578] (-) TimerEvent: {}
+[38.229145] (-) TimerEvent: {}
+[38.330753] (-) TimerEvent: {}
+[38.432725] (-) TimerEvent: {}
+[38.533896] (-) TimerEvent: {}
+[38.636325] (-) TimerEvent: {}
+[38.738004] (-) TimerEvent: {}
+[38.839105] (-) TimerEvent: {}
+[38.940684] (-) TimerEvent: {}
+[39.043207] (-) TimerEvent: {}
+[39.145422] (-) TimerEvent: {}
+[39.246522] (-) TimerEvent: {}
+[39.348114] (-) TimerEvent: {}
+[39.449987] (-) TimerEvent: {}
+[39.552245] (-) TimerEvent: {}
+[39.654269] (-) TimerEvent: {}
+[39.756158] (-) TimerEvent: {}
+[39.858515] (-) TimerEvent: {}
+[39.960483] (-) TimerEvent: {}
+[40.062230] (-) TimerEvent: {}
+[40.163588] (-) TimerEvent: {}
+[40.265072] (-) TimerEvent: {}
+[40.366048] (-) TimerEvent: {}
+[40.467614] (-) TimerEvent: {}
+[40.569988] (-) TimerEvent: {}
+[40.672119] (-) TimerEvent: {}
+[40.773354] (-) TimerEvent: {}
+[40.876101] (-) TimerEvent: {}
+[40.978201] (-) TimerEvent: {}
+[41.079536] (-) TimerEvent: {}
+[41.181565] (-) TimerEvent: {}
+[41.283783] (-) TimerEvent: {}
+[41.385372] (-) TimerEvent: {}
+[41.488021] (-) TimerEvent: {}
+[41.590536] (-) TimerEvent: {}
+[41.692630] (-) TimerEvent: {}
+[41.794429] (-) TimerEvent: {}
+[41.896011] (-) TimerEvent: {}
+[41.999641] (-) TimerEvent: {}
+[42.100446] (-) TimerEvent: {}
+[42.201429] (-) TimerEvent: {}
+[42.303355] (-) TimerEvent: {}
+[42.405282] (-) TimerEvent: {}
+[42.506339] (-) TimerEvent: {}
+[42.607496] (-) TimerEvent: {}
+[42.708642] (-) TimerEvent: {}
+[42.809729] (-) TimerEvent: {}
+[42.910890] (-) TimerEvent: {}
+[43.012968] (-) TimerEvent: {}
+[43.116085] (-) TimerEvent: {}
+[43.217518] (-) TimerEvent: {}
+[43.318895] (-) TimerEvent: {}
+[43.420906] (-) TimerEvent: {}
+[43.522504] (-) TimerEvent: {}
+[43.624167] (-) TimerEvent: {}
+[43.725482] (-) TimerEvent: {}
+[43.827013] (-) TimerEvent: {}
+[43.928082] (-) TimerEvent: {}
+[44.029166] (-) TimerEvent: {}
+[44.130660] (-) TimerEvent: {}
+[44.232261] (-) TimerEvent: {}
+[44.333474] (-) TimerEvent: {}
+[44.434246] (-) TimerEvent: {}
+[44.537126] (-) TimerEvent: {}
+[44.639091] (-) TimerEvent: {}
+[44.740877] (-) TimerEvent: {}
+[44.842619] (-) TimerEvent: {}
+[44.943577] (-) TimerEvent: {}
+[45.045841] (-) TimerEvent: {}
+[45.146851] (-) TimerEvent: {}
+[45.248206] (-) TimerEvent: {}
+[45.349547] (-) TimerEvent: {}
+[45.450620] (-) TimerEvent: {}
+[45.551790] (-) TimerEvent: {}
+[45.654068] (-) TimerEvent: {}
+[45.756296] (-) TimerEvent: {}
+[45.857744] (-) TimerEvent: {}
+[45.959092] (-) TimerEvent: {}
+[46.060613] (-) TimerEvent: {}
+[46.162511] (-) TimerEvent: {}
+[46.264010] (-) TimerEvent: {}
+[46.366226] (-) TimerEvent: {}
+[46.467621] (-) TimerEvent: {}
+[46.569239] (-) TimerEvent: {}
+[46.671015] (-) TimerEvent: {}
+[46.772419] (-) TimerEvent: {}
+[46.873657] (-) TimerEvent: {}
+[46.974660] (-) TimerEvent: {}
+[47.075693] (-) TimerEvent: {}
+[47.176957] (-) TimerEvent: {}
+[47.277940] (-) TimerEvent: {}
+[47.379488] (-) TimerEvent: {}
+[47.481036] (-) TimerEvent: {}
+[47.582368] (-) TimerEvent: {}
+[47.683948] (-) TimerEvent: {}
+[47.786184] (-) TimerEvent: {}
+[47.887634] (-) TimerEvent: {}
+[47.989311] (-) TimerEvent: {}
+[48.091163] (-) TimerEvent: {}
+[48.192770] (-) TimerEvent: {}
+[48.293737] (-) TimerEvent: {}
+[48.395457] (-) TimerEvent: {}
+[48.496828] (-) TimerEvent: {}
+[48.597726] (-) TimerEvent: {}
+[48.699754] (-) TimerEvent: {}
+[48.800923] (-) TimerEvent: {}
+[48.902435] (-) TimerEvent: {}
+[49.004905] (-) TimerEvent: {}
+[49.106872] (-) TimerEvent: {}
+[49.208801] (-) TimerEvent: {}
+[49.309951] (-) TimerEvent: {}
+[49.411700] (-) TimerEvent: {}
+[49.512828] (-) TimerEvent: {}
+[49.614559] (-) TimerEvent: {}
+[49.716455] (-) TimerEvent: {}
+[49.818449] (-) TimerEvent: {}
+[49.919665] (-) TimerEvent: {}
+[50.021412] (-) TimerEvent: {}
+[50.122778] (-) TimerEvent: {}
+[50.224672] (-) TimerEvent: {}
+[50.326222] (-) TimerEvent: {}
+[50.427911] (-) TimerEvent: {}
+[50.529559] (-) TimerEvent: {}
+[50.631367] (-) TimerEvent: {}
+[50.732638] (-) TimerEvent: {}
+[50.834520] (-) TimerEvent: {}
+[50.935466] (-) TimerEvent: {}
+[51.036676] (-) TimerEvent: {}
+[51.138144] (-) TimerEvent: {}
+[51.240223] (-) TimerEvent: {}
+[51.341555] (-) TimerEvent: {}
+[51.442716] (-) TimerEvent: {}
+[51.543906] (-) TimerEvent: {}
+[51.644815] (-) TimerEvent: {}
+[51.745546] (-) TimerEvent: {}
+[51.846780] (-) TimerEvent: {}
+[51.948396] (-) TimerEvent: {}
+[52.050171] (-) TimerEvent: {}
+[52.151038] (-) TimerEvent: {}
+[52.252293] (-) TimerEvent: {}
+[52.354358] (-) TimerEvent: {}
+[52.455907] (-) TimerEvent: {}
+[52.557421] (-) TimerEvent: {}
+[52.658756] (-) TimerEvent: {}
+[52.759608] (-) TimerEvent: {}
+[52.860837] (-) TimerEvent: {}
+[52.962057] (-) TimerEvent: {}
+[53.063898] (-) TimerEvent: {}
+[53.165199] (-) TimerEvent: {}
+[53.266689] (-) TimerEvent: {}
+[53.367649] (-) TimerEvent: {}
+[53.468794] (-) TimerEvent: {}
+[53.570669] (-) TimerEvent: {}
+[53.672232] (-) TimerEvent: {}
+[53.773954] (-) TimerEvent: {}
+[53.874857] (-) TimerEvent: {}
+[53.976351] (-) TimerEvent: {}
+[53.999760] (demo_cpp_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_control\x1b[0m\n'}
+[54.076698] (-) TimerEvent: {}
+[54.178568] (-) TimerEvent: {}
+[54.280324] (-) TimerEvent: {}
+[54.381693] (-) TimerEvent: {}
+[54.482935] (-) TimerEvent: {}
+[54.584512] (-) TimerEvent: {}
+[54.685710] (-) TimerEvent: {}
+[54.786664] (-) TimerEvent: {}
+[54.888944] (-) TimerEvent: {}
+[54.989894] (-) TimerEvent: {}
+[55.090969] (-) TimerEvent: {}
+[55.193063] (-) TimerEvent: {}
+[55.294370] (-) TimerEvent: {}
+[55.395363] (-) TimerEvent: {}
+[55.496702] (-) TimerEvent: {}
+[55.598017] (-) TimerEvent: {}
+[55.699053] (-) TimerEvent: {}
+[55.709902] (demo_cpp_topic) StdoutLine: {'line': b'[100%] Built target turtle_control\n'}
+[55.751038] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[55.753572] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'install'}
+[55.757271] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zj/chapt3/build/demo_cpp_topic'], 'cwd': '/home/zj/chapt3/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zj'), ('SSH_CLIENT', '192.168.149.1 62013 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zj'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b6d13a45-ce5e-4dc9-b964-5ed15fd16176.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2cc974af6afc822c.txt'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8babd96d7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zj/chapt3/build/demo_cpp_topic'), ('SSH_CONNECTION', '192.168.149.1 62013 192.168.149.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[55.784011] (demo_cpp_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[55.784966] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control\n'}
+[55.797109] (demo_cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""\n'}
+[55.797595] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle\n'}
+[55.800084] (-) TimerEvent: {}
+[55.801273] (demo_cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""\n'}
+[55.802386] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic\n'}
+[55.803634] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic\n'}
+[55.804334] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh\n'}
+[55.804873] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv\n'}
+[55.805887] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh\n'}
+[55.806445] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv\n'}
+[55.807727] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash\n'}
+[55.809245] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh\n'}
+[55.810297] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh\n'}
+[55.811146] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv\n'}
+[55.811648] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv\n'}
+[55.812360] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic\n'}
+[55.813047] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake\n'}
+[55.813419] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake\n'}
+[55.814102] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/demo_cpp_topic/share/demo_cpp_topic/package.xml\n'}
+[55.823412] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[55.881993] (demo_cpp_topic) JobEnded: {'identifier': 'demo_cpp_topic', 'rc': 0}
+[55.901386] (-) TimerEvent: {}
+[56.002300] (-) TimerEvent: {}
+[56.104307] (-) TimerEvent: {}
+[56.206060] (-) TimerEvent: {}
+[56.307872] (-) TimerEvent: {}
+[56.409088] (-) TimerEvent: {}
+[56.510930] (-) TimerEvent: {}
+[56.612596] (-) TimerEvent: {}
+[56.714164] (-) TimerEvent: {}
+[56.815477] (-) TimerEvent: {}
+[56.916918] (-) TimerEvent: {}
+[57.018596] (-) TimerEvent: {}
+[57.120017] (-) TimerEvent: {}
+[57.221867] (-) TimerEvent: {}
+[57.324111] (-) TimerEvent: {}
+[57.426025] (-) TimerEvent: {}
+[57.528061] (-) TimerEvent: {}
+[57.629691] (-) TimerEvent: {}
+[57.731353] (-) TimerEvent: {}
+[57.832910] (-) TimerEvent: {}
+[57.934620] (-) TimerEvent: {}
+[58.035853] (-) TimerEvent: {}
+[58.136773] (-) TimerEvent: {}
+[58.238170] (-) TimerEvent: {}
+[58.339858] (-) TimerEvent: {}
+[58.441212] (-) TimerEvent: {}
+[58.542405] (-) TimerEvent: {}
+[58.644091] (-) TimerEvent: {}
+[58.745053] (-) TimerEvent: {}
+[58.846264] (-) TimerEvent: {}
+[58.948409] (-) TimerEvent: {}
+[59.050056] (-) TimerEvent: {}
+[59.151445] (-) TimerEvent: {}
+[59.252814] (-) TimerEvent: {}
+[59.354604] (-) TimerEvent: {}
+[59.457036] (-) TimerEvent: {}
+[59.558839] (-) TimerEvent: {}
+[59.660972] (-) TimerEvent: {}
+[59.762908] (-) TimerEvent: {}
+[59.864035] (-) TimerEvent: {}
+[59.965777] (-) TimerEvent: {}
+[60.067945] (-) TimerEvent: {}
+[60.169244] (-) TimerEvent: {}
+[60.270058] (-) TimerEvent: {}
+[60.371887] (-) TimerEvent: {}
+[60.473129] (-) TimerEvent: {}
+[60.574419] (-) TimerEvent: {}
+[60.676058] (-) TimerEvent: {}
+[60.778166] (-) TimerEvent: {}
+[60.880809] (-) TimerEvent: {}
+[60.983137] (-) TimerEvent: {}
+[61.084780] (-) TimerEvent: {}
+[61.185591] (-) TimerEvent: {}
+[61.287080] (-) TimerEvent: {}
+[61.388521] (-) TimerEvent: {}
+[61.489974] (-) TimerEvent: {}
+[61.592147] (-) TimerEvent: {}
+[61.693273] (-) TimerEvent: {}
+[61.795260] (-) TimerEvent: {}
+[61.897036] (-) TimerEvent: {}
+[61.997694] (-) TimerEvent: {}
+[62.099705] (-) TimerEvent: {}
+[62.201443] (-) TimerEvent: {}
+[62.302690] (-) TimerEvent: {}
+[62.404662] (-) TimerEvent: {}
+[62.505797] (-) TimerEvent: {}
+[62.607341] (-) TimerEvent: {}
+[62.708559] (-) TimerEvent: {}
+[62.809816] (-) TimerEvent: {}
+[62.911113] (-) TimerEvent: {}
+[63.013036] (-) TimerEvent: {}
+[63.114697] (-) TimerEvent: {}
+[63.217118] (-) TimerEvent: {}
+[63.318250] (-) TimerEvent: {}
+[63.419447] (-) TimerEvent: {}
+[63.521268] (-) TimerEvent: {}
+[63.623393] (-) TimerEvent: {}
+[63.725272] (-) TimerEvent: {}
+[63.826202] (-) TimerEvent: {}
+[63.927360] (-) TimerEvent: {}
+[64.029157] (-) TimerEvent: {}
+[64.130165] (-) TimerEvent: {}
+[64.231648] (-) TimerEvent: {}
+[64.332546] (-) TimerEvent: {}
+[64.433408] (-) TimerEvent: {}
+[64.534882] (-) TimerEvent: {}
+[64.635772] (-) TimerEvent: {}
+[64.737631] (-) TimerEvent: {}
+[64.839616] (-) TimerEvent: {}
+[64.941666] (-) TimerEvent: {}
+[65.043725] (-) TimerEvent: {}
+[65.145408] (-) TimerEvent: {}
+[65.246776] (-) TimerEvent: {}
+[65.347671] (-) TimerEvent: {}
+[65.448538] (-) TimerEvent: {}
+[65.550463] (-) TimerEvent: {}
+[65.651437] (-) TimerEvent: {}
+[65.753424] (-) TimerEvent: {}
+[65.855429] (-) TimerEvent: {}
+[65.957414] (-) TimerEvent: {}
+[66.059070] (-) TimerEvent: {}
+[66.161009] (-) TimerEvent: {}
+[66.263614] (-) TimerEvent: {}
+[66.365328] (-) TimerEvent: {}
+[66.467566] (-) TimerEvent: {}
+[66.568340] (-) TimerEvent: {}
+[66.669547] (-) TimerEvent: {}
+[66.770567] (-) TimerEvent: {}
+[66.873363] (-) TimerEvent: {}
+[66.974716] (-) TimerEvent: {}
+[67.075731] (-) TimerEvent: {}
+[67.176758] (-) TimerEvent: {}
+[67.278068] (-) TimerEvent: {}
+[67.379998] (-) TimerEvent: {}
+[67.481450] (-) TimerEvent: {}
+[67.582733] (-) TimerEvent: {}
+[67.684153] (-) TimerEvent: {}
+[67.785235] (-) TimerEvent: {}
+[67.886716] (-) TimerEvent: {}
+[67.987670] (-) TimerEvent: {}
+[68.089522] (-) TimerEvent: {}
+[68.191505] (-) TimerEvent: {}
+[68.293397] (-) TimerEvent: {}
+[68.394747] (-) TimerEvent: {}
+[68.496481] (-) TimerEvent: {}
+[68.598194] (-) TimerEvent: {}
+[68.700648] (-) TimerEvent: {}
+[68.801756] (-) TimerEvent: {}
+[68.903244] (-) TimerEvent: {}
+[69.004617] (-) TimerEvent: {}
+[69.021915] (status_display) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sys_status_display\x1b[0m\n'}
+[69.105526] (-) TimerEvent: {}
+[69.206727] (-) TimerEvent: {}
+[69.308021] (-) TimerEvent: {}
+[69.409375] (-) TimerEvent: {}
+[69.510895] (-) TimerEvent: {}
+[69.611966] (-) TimerEvent: {}
+[69.713659] (-) TimerEvent: {}
+[69.815926] (-) TimerEvent: {}
+[69.917380] (-) TimerEvent: {}
+[70.018428] (-) TimerEvent: {}
+[70.119537] (-) TimerEvent: {}
+[70.221958] (-) TimerEvent: {}
+[70.323635] (-) TimerEvent: {}
+[70.425128] (-) TimerEvent: {}
+[70.527420] (-) TimerEvent: {}
+[70.629698] (-) TimerEvent: {}
+[70.730360] (-) TimerEvent: {}
+[70.831381] (-) TimerEvent: {}
+[70.933575] (-) TimerEvent: {}
+[71.035658] (-) TimerEvent: {}
+[71.136787] (-) TimerEvent: {}
+[71.239739] (-) TimerEvent: {}
+[71.341767] (-) TimerEvent: {}
+[71.444100] (-) TimerEvent: {}
+[71.545720] (-) TimerEvent: {}
+[71.647906] (-) TimerEvent: {}
+[71.749694] (-) TimerEvent: {}
+[71.850743] (-) TimerEvent: {}
+[71.952188] (-) TimerEvent: {}
+[72.053708] (-) TimerEvent: {}
+[72.155016] (-) TimerEvent: {}
+[72.256482] (-) TimerEvent: {}
+[72.358433] (-) TimerEvent: {}
+[72.460407] (-) TimerEvent: {}
+[72.562373] (-) TimerEvent: {}
+[72.663835] (-) TimerEvent: {}
+[72.764757] (-) TimerEvent: {}
+[72.824687] (status_display) StdoutLine: {'line': b'[100%] Built target sys_status_display\n'}
+[72.869835] (status_display) CommandEnded: {'returncode': 0}
+[72.871624] (-) TimerEvent: {}
+[72.872457] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'install'}
+[72.872666] (status_display) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zj/chapt3/build/status_display'], 'cwd': '/home/zj/chapt3/build/status_display', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zj'), ('SSH_CLIENT', '192.168.149.1 62013 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zj/chapt3/install/status_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/zj'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b6d13a45-ce5e-4dc9-b964-5ed15fd16176.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zj/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zj/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-2cc974af6afc822c.txt'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8babd96d7.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/zj/chapt3/install/status_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zj/chapt3/build/status_display'), ('SSH_CONNECTION', '192.168.149.1 62013 192.168.149.128 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zj/chapt3/install/status_interfaces:/opt/ros/humble')]), 'shell': False}
+[72.898342] (status_display) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[72.899300] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/lib/status_display/hello_qt\n'}
+[72.899872] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/lib/status_display/sys_status_display\n'}
+[72.912050] (status_display) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/install/status_display/lib/status_display/sys_status_display" to ""\n'}
+[72.912785] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display\n'}
+[72.913571] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display\n'}
+[72.914244] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/status_display/environment/ament_prefix_path.sh\n'}
+[72.914901] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/status_display/environment/ament_prefix_path.dsv\n'}
+[72.915328] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/status_display/environment/path.sh\n'}
+[72.916280] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/status_display/environment/path.dsv\n'}
+[72.916647] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/status_display/local_setup.bash\n'}
+[72.917109] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/status_display/local_setup.sh\n'}
+[72.917796] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/status_display/local_setup.zsh\n'}
+[72.918128] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/status_display/local_setup.dsv\n'}
+[72.918802] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/status_display/package.dsv\n'}
+[72.919948] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/ament_index/resource_index/packages/status_display\n'}
+[72.920808] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/status_display/cmake/status_displayConfig.cmake\n'}
+[72.921418] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake\n'}
+[72.922466] (status_display) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/install/status_display/share/status_display/package.xml\n'}
+[72.929332] (status_display) CommandEnded: {'returncode': 0}
+[72.972443] (-) TimerEvent: {}
+[72.980890] (status_display) JobEnded: {'identifier': 'status_display', 'rc': 0}
+[72.984588] (-) EventReactorShutdown: {}

@@ -1,0 +1,38 @@
+[2.215s] Invoking command in '/home/zj/chapt3/topic_practice_ws/src/status_publisher': AMENT_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces LD_LIBRARY_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zj/chapt3/topic_practice_ws/src/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zj/chapt3/topic_practice_ws/src/install/status_publisher/lib/python3.10/site-packages:/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/status_publisher build --build-base /home/zj/chapt3/topic_practice_ws/src/build/status_publisher/build install --record /home/zj/chapt3/topic_practice_ws/src/build/status_publisher/install.log --single-version-externally-managed install_data
+[3.088s] running egg_info
+[3.091s] creating ../build/status_publisher/status_publisher.egg-info
+[3.094s] writing ../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[3.095s] writing dependency_links to ../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[3.098s] writing entry points to ../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[3.098s] writing requirements to ../build/status_publisher/status_publisher.egg-info/requires.txt
+[3.099s] writing top-level names to ../build/status_publisher/status_publisher.egg-info/top_level.txt
+[3.099s] writing manifest file '../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[3.109s] reading manifest file '../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[3.109s] adding license file 'LICENSE'
+[3.112s] writing manifest file '../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[3.113s] running build
+[3.114s] running build_py
+[3.115s] creating /home/zj/chapt3/topic_practice_ws/src/build/status_publisher/build
+[3.115s] creating /home/zj/chapt3/topic_practice_ws/src/build/status_publisher/build/lib
+[3.115s] creating /home/zj/chapt3/topic_practice_ws/src/build/status_publisher/build/lib/status_publisher
+[3.115s] copying status_publisher/sys_status_pub.py -> /home/zj/chapt3/topic_practice_ws/src/build/status_publisher/build/lib/status_publisher
+[3.117s] copying status_publisher/__init__.py -> /home/zj/chapt3/topic_practice_ws/src/build/status_publisher/build/lib/status_publisher
+[3.118s] running install
+[3.119s] running install_lib
+[3.122s] creating /home/zj/chapt3/topic_practice_ws/src/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[3.123s] copying /home/zj/chapt3/topic_practice_ws/src/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/zj/chapt3/topic_practice_ws/src/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[3.124s] copying /home/zj/chapt3/topic_practice_ws/src/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/zj/chapt3/topic_practice_ws/src/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[3.127s] byte-compiling /home/zj/chapt3/topic_practice_ws/src/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc
+[3.129s] byte-compiling /home/zj/chapt3/topic_practice_ws/src/install/status_publisher/lib/python3.10/site-packages/status_publisher/__init__.py to __init__.cpython-310.pyc
+[3.130s] running install_data
+[3.131s] creating /home/zj/chapt3/topic_practice_ws/src/install/status_publisher/share/ament_index
+[3.131s] creating /home/zj/chapt3/topic_practice_ws/src/install/status_publisher/share/ament_index/resource_index
+[3.132s] creating /home/zj/chapt3/topic_practice_ws/src/install/status_publisher/share/ament_index/resource_index/packages
+[3.132s] copying resource/status_publisher -> /home/zj/chapt3/topic_practice_ws/src/install/status_publisher/share/ament_index/resource_index/packages
+[3.133s] copying package.xml -> /home/zj/chapt3/topic_practice_ws/src/install/status_publisher/share/status_publisher
+[3.133s] running install_egg_info
+[3.143s] Copying ../build/status_publisher/status_publisher.egg-info to /home/zj/chapt3/topic_practice_ws/src/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[3.147s] running install_scripts
+[3.232s] Installing sys_status_pub script to /home/zj/chapt3/topic_practice_ws/src/install/status_publisher/lib/status_publisher
+[3.233s] writing list of installed files to '/home/zj/chapt3/topic_practice_ws/src/build/status_publisher/install.log'
+[3.340s] Invoked command in '/home/zj/chapt3/topic_practice_ws/src/status_publisher' returned '0': AMENT_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces LD_LIBRARY_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zj/chapt3/topic_practice_ws/src/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zj/chapt3/topic_practice_ws/src/install/status_publisher/lib/python3.10/site-packages:/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/status_publisher build --build-base /home/zj/chapt3/topic_practice_ws/src/build/status_publisher/build install --record /home/zj/chapt3/topic_practice_ws/src/build/status_publisher/install.log --single-version-externally-managed install_data

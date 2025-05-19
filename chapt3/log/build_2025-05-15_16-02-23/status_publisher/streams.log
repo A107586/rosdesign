@@ -1,0 +1,38 @@
+[3.148s] Invoking command in '/home/zj/chapt3/topic_practice_ws/src/status_publisher': AMENT_PREFIX_PATH=/home/zj/chapt3/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zj/chapt3/install/status_interfaces LD_LIBRARY_PATH=/home/zj/chapt3/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zj/chapt3/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages:/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/status_publisher build --build-base /home/zj/chapt3/build/status_publisher/build install --record /home/zj/chapt3/build/status_publisher/install.log --single-version-externally-managed install_data
+[4.256s] running egg_info
+[4.260s] creating ../../../build/status_publisher/status_publisher.egg-info
+[4.261s] writing ../../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[4.263s] writing dependency_links to ../../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[4.263s] writing entry points to ../../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[4.265s] writing requirements to ../../../build/status_publisher/status_publisher.egg-info/requires.txt
+[4.266s] writing top-level names to ../../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[4.267s] writing manifest file '../../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[4.278s] reading manifest file '../../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[4.279s] adding license file 'LICENSE'
+[4.281s] writing manifest file '../../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[4.283s] running build
+[4.283s] running build_py
+[4.284s] creating /home/zj/chapt3/build/status_publisher/build
+[4.285s] creating /home/zj/chapt3/build/status_publisher/build/lib
+[4.285s] creating /home/zj/chapt3/build/status_publisher/build/lib/status_publisher
+[4.285s] copying status_publisher/sys_status_pub.py -> /home/zj/chapt3/build/status_publisher/build/lib/status_publisher
+[4.287s] copying status_publisher/__init__.py -> /home/zj/chapt3/build/status_publisher/build/lib/status_publisher
+[4.290s] running install
+[4.292s] running install_lib
+[4.294s] creating /home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[4.296s] copying /home/zj/chapt3/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[4.297s] copying /home/zj/chapt3/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[4.298s] byte-compiling /home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc
+[4.303s] byte-compiling /home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages/status_publisher/__init__.py to __init__.cpython-310.pyc
+[4.304s] running install_data
+[4.306s] creating /home/zj/chapt3/install/status_publisher/share/ament_index
+[4.307s] creating /home/zj/chapt3/install/status_publisher/share/ament_index/resource_index
+[4.308s] creating /home/zj/chapt3/install/status_publisher/share/ament_index/resource_index/packages
+[4.310s] copying resource/status_publisher -> /home/zj/chapt3/install/status_publisher/share/ament_index/resource_index/packages
+[4.310s] copying package.xml -> /home/zj/chapt3/install/status_publisher/share/status_publisher
+[4.312s] running install_egg_info
+[4.330s] Copying ../../../build/status_publisher/status_publisher.egg-info to /home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[4.338s] running install_scripts
+[4.493s] Installing sys_status_pub script to /home/zj/chapt3/install/status_publisher/lib/status_publisher
+[4.495s] writing list of installed files to '/home/zj/chapt3/build/status_publisher/install.log'
+[4.621s] Invoked command in '/home/zj/chapt3/topic_practice_ws/src/status_publisher' returned '0': AMENT_PREFIX_PATH=/home/zj/chapt3/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zj/chapt3/install/status_interfaces LD_LIBRARY_PATH=/home/zj/chapt3/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zj/chapt3/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zj/chapt3/install/status_publisher/lib/python3.10/site-packages:/home/zj/chapt3/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/status_publisher build --build-base /home/zj/chapt3/build/status_publisher/build install --record /home/zj/chapt3/build/status_publisher/install.log --single-version-externally-managed install_data

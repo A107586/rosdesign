@@ -1,0 +1,73 @@
+[0.070s] Invoking command in '/home/zj/chapt3/topic_practice_ws/src/build/status_display': AMENT_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zj/chapt3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/zj/chapt3/topic_practice_ws/src/install/status_display
+[0.239s] -- The C compiler identification is GNU 11.4.0
+[0.424s] -- The CXX compiler identification is GNU 11.4.0
+[0.444s] -- Detecting C compiler ABI info
+[0.687s] -- Detecting C compiler ABI info - done
+[0.712s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.712s] -- Detecting C compile features
+[0.713s] -- Detecting C compile features - done
+[0.724s] -- Detecting CXX compiler ABI info
+[0.982s] -- Detecting CXX compiler ABI info - done
+[1.006s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.007s] -- Detecting CXX compile features
+[1.008s] -- Detecting CXX compile features - done
+[1.012s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.520s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.836s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.985s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.001s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.041s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.078s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.127s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.365s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.386s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.778s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.869s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.000s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.051s] -- Looking for pthread.h
+[3.328s] -- Looking for pthread.h - found
+[3.329s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.573s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.579s] -- Found Threads: TRUE  
+[3.920s] -- Found status_interfaces: 0.0.0 (/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/share/status_interfaces/cmake)
+[4.092s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.384s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.384s] -- Configured cppcheck include dirs: 
+[4.385s] -- Configured cppcheck exclude dirs and/or files: 
+[4.387s] -- Added test 'lint_cmake' to check CMake code style
+[4.389s] -- Added test 'uncrustify' to check C / C++ code style
+[4.389s] -- Configured uncrustify additional arguments: 
+[4.389s] -- Added test 'xmllint' to check XML markup files
+[4.394s] -- Configuring done
+[4.469s] -- Generating done
+[4.491s] -- Build files have been written to: /home/zj/chapt3/topic_practice_ws/src/build/status_display
+[4.538s] Invoked command in '/home/zj/chapt3/topic_practice_ws/src/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zj/chapt3/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/zj/chapt3/topic_practice_ws/src/install/status_display
+[4.541s] Invoking command in '/home/zj/chapt3/topic_practice_ws/src/build/status_display': AMENT_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zj/chapt3/topic_practice_ws/src/build/status_display -- -j12 -l12
+[4.713s] [ 50%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[4.714s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[9.341s] [ 75%] [32m[1mLinking CXX executable hello_qt[0m
+[10.385s] [ 75%] Built target hello_qt
+[40.051s] [100%] [32m[1mLinking CXX executable sys_status_display[0m
+[43.728s] [100%] Built target sys_status_display
+[43.770s] Invoked command in '/home/zj/chapt3/topic_practice_ws/src/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zj/chapt3/topic_practice_ws/src/build/status_display -- -j12 -l12
+[43.779s] Invoking command in '/home/zj/chapt3/topic_practice_ws/src/build/status_display': AMENT_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zj/chapt3/topic_practice_ws/src/build/status_display
+[43.806s] -- Install configuration: ""
+[43.807s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/lib/status_display/hello_qt
+[43.807s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/lib/status_display/sys_status_display
+[43.820s] -- Set runtime path of "/home/zj/chapt3/topic_practice_ws/src/install/status_display/lib/status_display/sys_status_display" to ""
+[43.822s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[43.823s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[43.823s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[43.823s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[43.824s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/status_display/environment/path.sh
+[43.825s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/status_display/environment/path.dsv
+[43.825s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/status_display/local_setup.bash
+[43.826s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/status_display/local_setup.sh
+[43.826s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/status_display/local_setup.zsh
+[43.826s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/status_display/local_setup.dsv
+[43.827s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/status_display/package.dsv
+[43.827s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/ament_index/resource_index/packages/status_display
+[43.827s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[43.828s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[43.828s] -- Installing: /home/zj/chapt3/topic_practice_ws/src/install/status_display/share/status_display/package.xml
+[43.835s] Invoked command in '/home/zj/chapt3/topic_practice_ws/src/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zj/chapt3/topic_practice_ws/src/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zj/chapt3/topic_practice_ws/src/build/status_display
