@@ -1,0 +1,23 @@
+[2.180s] Invoking command in '/home/zj/chapt3/topic_ws/src/demo_python_topic': PYTHONPATH=/home/zj/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/zj/chapt3/topic_ws/build/demo_python_topic/build install --record /home/zj/chapt3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[2.995s] running egg_info
+[2.997s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[2.998s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[2.999s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[3.000s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[3.000s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[3.005s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[3.007s] adding license file 'LICENSE'
+[3.009s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[3.010s] running build
+[3.010s] running build_py
+[3.010s] running install
+[3.011s] running install_lib
+[3.014s] running install_data
+[3.014s] running install_egg_info
+[3.021s] removing '/home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[3.022s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[3.023s] running install_scripts
+[3.102s] Installing novel_pub_node script to /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[3.102s] Installing novel_sub_node script to /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[3.103s] writing list of installed files to '/home/zj/chapt3/topic_ws/build/demo_python_topic/install.log'
+[3.188s] Invoked command in '/home/zj/chapt3/topic_ws/src/demo_python_topic' returned '0': PYTHONPATH=/home/zj/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/zj/chapt3/topic_ws/build/demo_python_topic/build install --record /home/zj/chapt3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data

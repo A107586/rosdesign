@@ -1,0 +1,42 @@
+[2.025s] Invoking command in '/home/zj/chapt3/topic_ws/src/demo_python_topic': PYTHONPATH=/home/zj/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/zj/chapt3/topic_ws/build/demo_python_topic/build install --record /home/zj/chapt3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[2.766s] running egg_info
+[2.770s] creating ../../build/demo_python_topic/demo_python_topic.egg-info
+[2.771s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[2.772s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[2.772s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[2.773s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[2.773s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[2.774s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[2.779s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[2.780s] adding license file 'LICENSE'
+[2.782s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[2.783s] running build
+[2.783s] running build_py
+[2.784s] creating /home/zj/chapt3/topic_ws/build/demo_python_topic/build
+[2.784s] creating /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib
+[2.784s] creating /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[2.784s] copying demo_python_topic/__init__.py -> /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[2.784s] copying demo_python_topic/novel_sub_node.py -> /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[2.785s] copying demo_python_topic/novel_pub_node.py -> /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[2.785s] running install
+[2.786s] running install_lib
+[2.789s] creating /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[2.790s] copying /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/__init__.py -> /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[2.790s] copying /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/novel_sub_node.py -> /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[2.791s] copying /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/novel_pub_node.py -> /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[2.792s] byte-compiling /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__init__.py to __init__.cpython-310.pyc
+[2.793s] byte-compiling /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_sub_node.py to novel_sub_node.cpython-310.pyc
+[2.794s] byte-compiling /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py to novel_pub_node.cpython-310.pyc
+[2.796s] running install_data
+[2.797s] creating /home/zj/chapt3/topic_ws/install/demo_python_topic/share/ament_index
+[2.797s] creating /home/zj/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index
+[2.797s] creating /home/zj/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[2.797s] copying resource/demo_python_topic -> /home/zj/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[2.798s] copying package.xml -> /home/zj/chapt3/topic_ws/install/demo_python_topic/share/demo_python_topic
+[2.798s] running install_egg_info
+[2.806s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[2.808s] running install_scripts
+[2.882s] Installing novel_pub_node script to /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[2.883s] Installing novel_sub_node script to /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[2.885s] writing list of installed files to '/home/zj/chapt3/topic_ws/build/demo_python_topic/install.log'
+[2.977s] Invoked command in '/home/zj/chapt3/topic_ws/src/demo_python_topic' returned '0': PYTHONPATH=/home/zj/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/zj/chapt3/topic_ws/build/demo_python_topic/build install --record /home/zj/chapt3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data

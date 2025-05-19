@@ -1,0 +1,26 @@
+[0.074s] Invoking command in '/home/zj/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zj/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/zj/chapt3/topic_ws/build/demo_cpp_topic -- -j12 -l12
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.320s] [ 50%] Built target turtle_circle
+[0.328s] [100%] Built target turtle_control
+[0.980s] Invoked command in '/home/zj/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zj/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/zj/chapt3/topic_ws/build/demo_cpp_topic -- -j12 -l12
+[1.016s] Invoking command in '/home/zj/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zj/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/zj/chapt3/topic_ws/build/demo_cpp_topic
+[1.041s] -- Install configuration: ""
+[1.048s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control
+[1.058s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[1.059s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[1.059s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[1.059s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[1.059s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[1.059s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[1.060s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[1.060s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[1.060s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[1.060s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[1.060s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[1.060s] -- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[1.062s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[1.062s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[1.062s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[1.062s] -- Up-to-date: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[1.071s] Invoked command in '/home/zj/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zj/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/zj/chapt3/topic_ws/build/demo_cpp_topic

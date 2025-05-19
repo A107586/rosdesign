@@ -1,0 +1,450 @@
+[0.000000] (-) TimerEvent: {}
+[0.002723] (demo_cpp_topic) JobQueued: {'identifier': 'demo_cpp_topic', 'dependencies': OrderedDict()}
+[0.003258] (demo_python_topic) JobQueued: {'identifier': 'demo_python_topic', 'dependencies': OrderedDict()}
+[0.006072] (demo_cpp_topic) JobStarted: {'identifier': 'demo_cpp_topic'}
+[0.022396] (demo_python_topic) JobStarted: {'identifier': 'demo_python_topic'}
+[0.046243] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'cmake'}
+[0.047986] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '/home/zj/chapt3/topic_ws/src/demo_cpp_topic', '-DCMAKE_INSTALL_PREFIX=/home/zj/chapt3/topic_ws/install/demo_cpp_topic'], 'cwd': '/home/zj/chapt3/topic_ws/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zj'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '11629'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zj:@/tmp/.ICE-unix/1270,unix/zj:/tmp/.ICE-unix/1270'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/57565181_e460_4a22_80b1_4aeb47f69bb8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CW3I62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zj/chapt3/topic_ws/build/demo_cpp_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098548] (-) TimerEvent: {}
+[0.199437] (-) TimerEvent: {}
+[0.211454] (demo_cpp_topic) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.301540] (-) TimerEvent: {}
+[0.368515] (demo_cpp_topic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.387986] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.402301] (-) TimerEvent: {}
+[0.504681] (-) TimerEvent: {}
+[0.577385] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.598462] (demo_cpp_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.599480] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.603290] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.604868] (-) TimerEvent: {}
+[0.609761] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.705426] (-) TimerEvent: {}
+[0.806219] (-) TimerEvent: {}
+[0.823058] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.843945] (demo_cpp_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.844753] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.845228] (demo_cpp_topic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.851330] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.906594] (-) TimerEvent: {}
+[1.007825] (-) TimerEvent: {}
+[1.109362] (-) TimerEvent: {}
+[1.210638] (-) TimerEvent: {}
+[1.311546] (-) TimerEvent: {}
+[1.326027] (demo_cpp_topic) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.411751] (-) TimerEvent: {}
+[1.512436] (-) TimerEvent: {}
+[1.603690] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.613075] (-) TimerEvent: {}
+[1.714104] (-) TimerEvent: {}
+[1.721208] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.735520] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.762505] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.796382] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.815054] (-) TimerEvent: {}
+[1.852007] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.915459] (-) TimerEvent: {}
+[1.997412] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.005547] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.016325] (-) TimerEvent: {}
+[2.042822] (demo_python_topic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_topic', 'build', '--build-base', '/home/zj/chapt3/topic_ws/build/demo_python_topic/build', 'install', '--record', '/home/zj/chapt3/topic_ws/build/demo_python_topic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zj/chapt3/topic_ws/src/demo_python_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'zj', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '11629', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'zj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zj:@/tmp/.ICE-unix/1270,unix/zj:/tmp/.ICE-unix/1270', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/57565181_e460_4a22_80b1_4aeb47f69bb8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CW3I62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.148', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zj/chapt3/topic_ws/build/demo_python_topic', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zj/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.116623] (-) TimerEvent: {}
+[2.217518] (-) TimerEvent: {}
+[2.263788] (demo_cpp_topic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.318920] (-) TimerEvent: {}
+[2.342213] (demo_cpp_topic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.419566] (-) TimerEvent: {}
+[2.464602] (demo_cpp_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.488596] (demo_cpp_topic) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.519817] (-) TimerEvent: {}
+[2.621064] (-) TimerEvent: {}
+[2.689447] (demo_cpp_topic) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.691264] (demo_cpp_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.721182] (-) TimerEvent: {}
+[2.788687] (demo_python_topic) StdoutLine: {'line': b'running egg_info\n'}
+[2.792133] (demo_python_topic) StdoutLine: {'line': b'creating ../../build/demo_python_topic/demo_python_topic.egg-info\n'}
+[2.792800] (demo_python_topic) StdoutLine: {'line': b'writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO\n'}
+[2.793915] (demo_python_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt\n'}
+[2.794604] (demo_python_topic) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt\n'}
+[2.795302] (demo_python_topic) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt\n'}
+[2.795465] (demo_python_topic) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt\n'}
+[2.796417] (demo_python_topic) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[2.801693] (demo_python_topic) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[2.802090] (demo_python_topic) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.804171] (demo_python_topic) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[2.805067] (demo_python_topic) StdoutLine: {'line': b'running build\n'}
+[2.805729] (demo_python_topic) StdoutLine: {'line': b'running build_py\n'}
+[2.806205] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/topic_ws/build/demo_python_topic/build\n'}
+[2.806330] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib\n'}
+[2.806377] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic\n'}
+[2.806427] (demo_python_topic) StdoutLine: {'line': b'copying demo_python_topic/__init__.py -> /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic\n'}
+[2.806625] (demo_python_topic) StdoutLine: {'line': b'copying demo_python_topic/novel_sub_node.py -> /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic\n'}
+[2.807103] (demo_python_topic) StdoutLine: {'line': b'copying demo_python_topic/novel_pub_node.py -> /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic\n'}
+[2.807692] (demo_python_topic) StdoutLine: {'line': b'running install\n'}
+[2.808643] (demo_python_topic) StdoutLine: {'line': b'running install_lib\n'}
+[2.811570] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic\n'}
+[2.811858] (demo_python_topic) StdoutLine: {'line': b'copying /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/__init__.py -> /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic\n'}
+[2.812573] (demo_python_topic) StdoutLine: {'line': b'copying /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/novel_sub_node.py -> /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic\n'}
+[2.813103] (demo_python_topic) StdoutLine: {'line': b'copying /home/zj/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/novel_pub_node.py -> /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic\n'}
+[2.814066] (demo_python_topic) StdoutLine: {'line': b'byte-compiling /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__init__.py to __init__.cpython-310.pyc\n'}
+[2.814842] (demo_python_topic) StdoutLine: {'line': b'byte-compiling /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_sub_node.py to novel_sub_node.cpython-310.pyc\n'}
+[2.816560] (demo_python_topic) StdoutLine: {'line': b'byte-compiling /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py to novel_pub_node.cpython-310.pyc\n'}
+[2.818190] (demo_python_topic) StdoutLine: {'line': b'running install_data\n'}
+[2.818867] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/topic_ws/install/demo_python_topic/share/ament_index\n'}
+[2.819229] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index\n'}
+[2.819659] (demo_python_topic) StdoutLine: {'line': b'creating /home/zj/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages\n'}
+[2.819826] (demo_python_topic) StdoutLine: {'line': b'copying resource/demo_python_topic -> /home/zj/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages\n'}
+[2.819956] (demo_python_topic) StdoutLine: {'line': b'copying package.xml -> /home/zj/chapt3/topic_ws/install/demo_python_topic/share/demo_python_topic\n'}
+[2.820056] (demo_python_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.821527] (-) TimerEvent: {}
+[2.828423] (demo_python_topic) StdoutLine: {'line': b'Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info\n'}
+[2.830502] (demo_python_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[2.903815] (demo_python_topic) StdoutLine: {'line': b'Installing novel_pub_node script to /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic\n'}
+[2.904900] (demo_cpp_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.905458] (demo_python_topic) StdoutLine: {'line': b'Installing novel_sub_node script to /home/zj/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic\n'}
+[2.906899] (demo_python_topic) StdoutLine: {'line': b"writing list of installed files to '/home/zj/chapt3/topic_ws/build/demo_python_topic/install.log'\n"}
+[2.909672] (demo_cpp_topic) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.922374] (-) TimerEvent: {}
+[2.999036] (demo_python_topic) CommandEnded: {'returncode': 0}
+[3.025810] (-) TimerEvent: {}
+[3.032605] (demo_python_topic) JobEnded: {'identifier': 'demo_python_topic', 'rc': 0}
+[3.066032] (demo_cpp_topic) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.107445] (demo_cpp_topic) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[3.126259] (-) TimerEvent: {}
+[3.227706] (-) TimerEvent: {}
+[3.233360] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.328841] (-) TimerEvent: {}
+[3.430379] (-) TimerEvent: {}
+[3.480077] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.480674] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.480930] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.483506] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.486799] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.487094] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.487255] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.492111] (demo_cpp_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.528655] (demo_cpp_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[3.531822] (-) TimerEvent: {}
+[3.546779] (demo_cpp_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/zj/chapt3/topic_ws/build/demo_cpp_topic\n'}
+[3.582855] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[3.585290] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'build'}
+[3.588238] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zj/chapt3/topic_ws/build/demo_cpp_topic', '--', '-j8', '-l8'], 'cwd': '/home/zj/chapt3/topic_ws/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zj'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '11629'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zj:@/tmp/.ICE-unix/1270,unix/zj:/tmp/.ICE-unix/1270'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/57565181_e460_4a22_80b1_4aeb47f69bb8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CW3I62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zj/chapt3/topic_ws/build/demo_cpp_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.632846] (-) TimerEvent: {}
+[3.734007] (-) TimerEvent: {}
+[3.735022] (demo_cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o\x1b[0m\n'}
+[3.735946] (demo_cpp_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o\x1b[0m\n'}
+[3.834673] (-) TimerEvent: {}
+[3.936268] (-) TimerEvent: {}
+[4.037636] (-) TimerEvent: {}
+[4.138488] (-) TimerEvent: {}
+[4.239389] (-) TimerEvent: {}
+[4.340541] (-) TimerEvent: {}
+[4.441802] (-) TimerEvent: {}
+[4.543705] (-) TimerEvent: {}
+[4.644965] (-) TimerEvent: {}
+[4.745656] (-) TimerEvent: {}
+[4.846579] (-) TimerEvent: {}
+[4.947381] (-) TimerEvent: {}
+[5.048417] (-) TimerEvent: {}
+[5.149504] (-) TimerEvent: {}
+[5.250771] (-) TimerEvent: {}
+[5.351898] (-) TimerEvent: {}
+[5.453485] (-) TimerEvent: {}
+[5.554916] (-) TimerEvent: {}
+[5.655643] (-) TimerEvent: {}
+[5.757169] (-) TimerEvent: {}
+[5.858410] (-) TimerEvent: {}
+[5.959609] (-) TimerEvent: {}
+[6.061004] (-) TimerEvent: {}
+[6.161957] (-) TimerEvent: {}
+[6.263438] (-) TimerEvent: {}
+[6.364434] (-) TimerEvent: {}
+[6.465650] (-) TimerEvent: {}
+[6.580102] (-) TimerEvent: {}
+[6.680992] (-) TimerEvent: {}
+[6.781854] (-) TimerEvent: {}
+[6.883562] (-) TimerEvent: {}
+[6.985063] (-) TimerEvent: {}
+[7.086325] (-) TimerEvent: {}
+[7.188431] (-) TimerEvent: {}
+[7.289847] (-) TimerEvent: {}
+[7.391547] (-) TimerEvent: {}
+[7.492292] (-) TimerEvent: {}
+[7.593800] (-) TimerEvent: {}
+[7.694977] (-) TimerEvent: {}
+[7.796500] (-) TimerEvent: {}
+[7.898218] (-) TimerEvent: {}
+[7.999581] (-) TimerEvent: {}
+[8.100487] (-) TimerEvent: {}
+[8.201748] (-) TimerEvent: {}
+[8.302651] (-) TimerEvent: {}
+[8.403364] (-) TimerEvent: {}
+[8.504965] (-) TimerEvent: {}
+[8.607115] (-) TimerEvent: {}
+[8.708361] (-) TimerEvent: {}
+[8.810782] (-) TimerEvent: {}
+[8.911986] (-) TimerEvent: {}
+[9.012785] (-) TimerEvent: {}
+[9.113486] (-) TimerEvent: {}
+[9.214697] (-) TimerEvent: {}
+[9.317107] (-) TimerEvent: {}
+[9.417923] (-) TimerEvent: {}
+[9.519186] (-) TimerEvent: {}
+[9.620360] (-) TimerEvent: {}
+[9.721850] (-) TimerEvent: {}
+[9.822638] (-) TimerEvent: {}
+[9.923658] (-) TimerEvent: {}
+[10.025130] (-) TimerEvent: {}
+[10.126344] (-) TimerEvent: {}
+[10.228129] (-) TimerEvent: {}
+[10.330176] (-) TimerEvent: {}
+[10.431734] (-) TimerEvent: {}
+[10.534012] (-) TimerEvent: {}
+[10.635674] (-) TimerEvent: {}
+[10.736931] (-) TimerEvent: {}
+[10.838005] (-) TimerEvent: {}
+[10.939308] (-) TimerEvent: {}
+[11.040649] (-) TimerEvent: {}
+[11.142387] (-) TimerEvent: {}
+[11.243978] (-) TimerEvent: {}
+[11.344936] (-) TimerEvent: {}
+[11.446081] (-) TimerEvent: {}
+[11.546990] (-) TimerEvent: {}
+[11.648487] (-) TimerEvent: {}
+[11.749464] (-) TimerEvent: {}
+[11.850845] (-) TimerEvent: {}
+[11.951761] (-) TimerEvent: {}
+[12.053424] (-) TimerEvent: {}
+[12.175585] (-) TimerEvent: {}
+[12.276684] (-) TimerEvent: {}
+[12.378129] (-) TimerEvent: {}
+[12.479532] (-) TimerEvent: {}
+[12.581006] (-) TimerEvent: {}
+[12.682093] (-) TimerEvent: {}
+[12.784240] (-) TimerEvent: {}
+[12.885337] (-) TimerEvent: {}
+[12.986654] (-) TimerEvent: {}
+[13.088067] (-) TimerEvent: {}
+[13.189448] (-) TimerEvent: {}
+[13.290345] (-) TimerEvent: {}
+[13.391602] (-) TimerEvent: {}
+[13.492745] (-) TimerEvent: {}
+[13.593627] (-) TimerEvent: {}
+[13.694637] (-) TimerEvent: {}
+[13.795782] (-) TimerEvent: {}
+[13.896959] (-) TimerEvent: {}
+[13.998338] (-) TimerEvent: {}
+[14.099477] (-) TimerEvent: {}
+[14.200472] (-) TimerEvent: {}
+[14.302171] (-) TimerEvent: {}
+[14.403407] (-) TimerEvent: {}
+[14.504536] (-) TimerEvent: {}
+[14.605824] (-) TimerEvent: {}
+[14.706650] (-) TimerEvent: {}
+[14.808205] (-) TimerEvent: {}
+[14.909706] (-) TimerEvent: {}
+[15.010627] (-) TimerEvent: {}
+[15.111988] (-) TimerEvent: {}
+[15.213093] (-) TimerEvent: {}
+[15.313921] (-) TimerEvent: {}
+[15.415195] (-) TimerEvent: {}
+[15.517215] (-) TimerEvent: {}
+[15.618320] (-) TimerEvent: {}
+[15.719369] (-) TimerEvent: {}
+[15.820972] (-) TimerEvent: {}
+[15.922097] (-) TimerEvent: {}
+[16.023364] (-) TimerEvent: {}
+[16.124624] (-) TimerEvent: {}
+[16.225272] (-) TimerEvent: {}
+[16.326239] (-) TimerEvent: {}
+[16.427368] (-) TimerEvent: {}
+[16.528292] (-) TimerEvent: {}
+[16.630109] (-) TimerEvent: {}
+[16.731474] (-) TimerEvent: {}
+[16.833022] (-) TimerEvent: {}
+[16.934411] (-) TimerEvent: {}
+[17.035135] (-) TimerEvent: {}
+[17.137014] (-) TimerEvent: {}
+[17.238604] (-) TimerEvent: {}
+[17.340164] (-) TimerEvent: {}
+[17.441090] (-) TimerEvent: {}
+[17.542185] (-) TimerEvent: {}
+[17.643176] (-) TimerEvent: {}
+[17.744745] (-) TimerEvent: {}
+[17.845716] (-) TimerEvent: {}
+[17.946512] (-) TimerEvent: {}
+[18.047995] (-) TimerEvent: {}
+[18.149509] (-) TimerEvent: {}
+[18.250967] (-) TimerEvent: {}
+[18.351841] (-) TimerEvent: {}
+[18.453138] (-) TimerEvent: {}
+[18.554236] (-) TimerEvent: {}
+[18.655464] (-) TimerEvent: {}
+[18.757346] (-) TimerEvent: {}
+[18.858488] (-) TimerEvent: {}
+[18.959225] (-) TimerEvent: {}
+[19.060947] (-) TimerEvent: {}
+[19.162474] (-) TimerEvent: {}
+[19.264273] (-) TimerEvent: {}
+[19.366012] (-) TimerEvent: {}
+[19.417761] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable turtle_circle\x1b[0m\n'}
+[19.466458] (-) TimerEvent: {}
+[19.567157] (-) TimerEvent: {}
+[19.668382] (-) TimerEvent: {}
+[19.770810] (-) TimerEvent: {}
+[19.871843] (-) TimerEvent: {}
+[19.942728] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] Built target turtle_circle\n'}
+[19.972421] (-) TimerEvent: {}
+[20.073549] (-) TimerEvent: {}
+[20.175063] (-) TimerEvent: {}
+[20.276154] (-) TimerEvent: {}
+[20.377087] (-) TimerEvent: {}
+[20.478020] (-) TimerEvent: {}
+[20.579124] (-) TimerEvent: {}
+[20.680467] (-) TimerEvent: {}
+[20.781671] (-) TimerEvent: {}
+[20.882943] (-) TimerEvent: {}
+[20.984057] (-) TimerEvent: {}
+[21.086158] (-) TimerEvent: {}
+[21.188016] (-) TimerEvent: {}
+[21.289309] (-) TimerEvent: {}
+[21.390184] (-) TimerEvent: {}
+[21.491056] (-) TimerEvent: {}
+[21.592161] (-) TimerEvent: {}
+[21.692918] (-) TimerEvent: {}
+[21.797006] (-) TimerEvent: {}
+[21.898802] (-) TimerEvent: {}
+[22.002765] (-) TimerEvent: {}
+[22.103995] (-) TimerEvent: {}
+[22.205215] (-) TimerEvent: {}
+[22.307382] (-) TimerEvent: {}
+[22.409200] (-) TimerEvent: {}
+[22.511111] (-) TimerEvent: {}
+[22.612189] (-) TimerEvent: {}
+[22.713521] (-) TimerEvent: {}
+[22.816382] (-) TimerEvent: {}
+[22.917855] (-) TimerEvent: {}
+[23.018669] (-) TimerEvent: {}
+[23.119210] (-) TimerEvent: {}
+[23.220878] (-) TimerEvent: {}
+[23.321731] (-) TimerEvent: {}
+[23.422789] (-) TimerEvent: {}
+[23.523519] (-) TimerEvent: {}
+[23.624944] (-) TimerEvent: {}
+[23.726436] (-) TimerEvent: {}
+[23.827557] (-) TimerEvent: {}
+[23.928266] (-) TimerEvent: {}
+[24.029487] (-) TimerEvent: {}
+[24.130194] (-) TimerEvent: {}
+[24.231827] (-) TimerEvent: {}
+[24.333063] (-) TimerEvent: {}
+[24.433932] (-) TimerEvent: {}
+[24.535028] (-) TimerEvent: {}
+[24.636395] (-) TimerEvent: {}
+[24.739355] (-) TimerEvent: {}
+[24.840138] (-) TimerEvent: {}
+[24.941923] (-) TimerEvent: {}
+[25.043091] (-) TimerEvent: {}
+[25.144424] (-) TimerEvent: {}
+[25.245270] (-) TimerEvent: {}
+[25.346307] (-) TimerEvent: {}
+[25.447481] (-) TimerEvent: {}
+[25.548253] (-) TimerEvent: {}
+[25.651784] (-) TimerEvent: {}
+[25.753182] (-) TimerEvent: {}
+[25.854262] (-) TimerEvent: {}
+[25.955000] (-) TimerEvent: {}
+[26.055964] (-) TimerEvent: {}
+[26.157079] (-) TimerEvent: {}
+[26.258393] (-) TimerEvent: {}
+[26.359283] (-) TimerEvent: {}
+[26.460681] (-) TimerEvent: {}
+[26.562073] (-) TimerEvent: {}
+[26.663117] (-) TimerEvent: {}
+[26.764834] (-) TimerEvent: {}
+[26.866428] (-) TimerEvent: {}
+[26.969234] (-) TimerEvent: {}
+[27.071145] (-) TimerEvent: {}
+[27.172441] (-) TimerEvent: {}
+[27.273769] (-) TimerEvent: {}
+[27.375783] (-) TimerEvent: {}
+[27.476637] (-) TimerEvent: {}
+[27.577853] (-) TimerEvent: {}
+[27.679075] (-) TimerEvent: {}
+[27.780685] (-) TimerEvent: {}
+[27.881993] (-) TimerEvent: {}
+[27.983424] (-) TimerEvent: {}
+[28.085165] (-) TimerEvent: {}
+[28.186453] (-) TimerEvent: {}
+[28.287671] (-) TimerEvent: {}
+[28.389197] (-) TimerEvent: {}
+[28.490148] (-) TimerEvent: {}
+[28.590952] (-) TimerEvent: {}
+[28.692191] (-) TimerEvent: {}
+[28.793447] (-) TimerEvent: {}
+[28.894442] (-) TimerEvent: {}
+[28.995324] (-) TimerEvent: {}
+[29.096445] (-) TimerEvent: {}
+[29.197601] (-) TimerEvent: {}
+[29.299197] (-) TimerEvent: {}
+[29.400843] (-) TimerEvent: {}
+[29.503179] (-) TimerEvent: {}
+[29.605110] (-) TimerEvent: {}
+[29.706765] (-) TimerEvent: {}
+[29.807951] (-) TimerEvent: {}
+[29.909376] (-) TimerEvent: {}
+[30.010660] (-) TimerEvent: {}
+[30.111489] (-) TimerEvent: {}
+[30.212844] (-) TimerEvent: {}
+[30.313802] (-) TimerEvent: {}
+[30.414582] (-) TimerEvent: {}
+[30.515379] (-) TimerEvent: {}
+[30.616691] (-) TimerEvent: {}
+[30.717786] (-) TimerEvent: {}
+[30.818960] (-) TimerEvent: {}
+[30.920974] (-) TimerEvent: {}
+[31.022699] (-) TimerEvent: {}
+[31.123749] (-) TimerEvent: {}
+[31.225026] (-) TimerEvent: {}
+[31.325892] (-) TimerEvent: {}
+[31.428064] (-) TimerEvent: {}
+[31.529138] (-) TimerEvent: {}
+[31.630223] (-) TimerEvent: {}
+[31.630856] (demo_cpp_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_control\x1b[0m\n'}
+[31.731996] (-) TimerEvent: {}
+[31.833896] (-) TimerEvent: {}
+[31.934569] (-) TimerEvent: {}
+[32.035891] (-) TimerEvent: {}
+[32.137969] (-) TimerEvent: {}
+[32.239983] (-) TimerEvent: {}
+[32.341191] (-) TimerEvent: {}
+[32.442260] (-) TimerEvent: {}
+[32.543763] (-) TimerEvent: {}
+[32.574913] (demo_cpp_topic) StdoutLine: {'line': b'[100%] Built target turtle_control\n'}
+[32.596558] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[32.598526] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'install'}
+[32.616901] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zj/chapt3/topic_ws/build/demo_cpp_topic'], 'cwd': '/home/zj/chapt3/topic_ws/build/demo_cpp_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'zj'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '11629'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zj:@/tmp/.ICE-unix/1270,unix/zj:/tmp/.ICE-unix/1270'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/57565181_e460_4a22_80b1_4aeb47f69bb8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CW3I62'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zj/chapt3/topic_ws/build/demo_cpp_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[32.629568] (demo_cpp_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.630468] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control\n'}
+[32.636926] (demo_cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""\n'}
+[32.637297] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle\n'}
+[32.640029] (demo_cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/zj/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""\n'}
+[32.640429] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic\n'}
+[32.640795] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic\n'}
+[32.641499] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh\n'}
+[32.641981] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv\n'}
+[32.642459] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh\n'}
+[32.642793] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv\n'}
+[32.642948] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash\n'}
+[32.643255] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh\n'}
+[32.643634] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh\n'}
+[32.643793] (-) TimerEvent: {}
+[32.644039] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv\n'}
+[32.644295] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv\n'}
+[32.644492] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic\n'}
+[32.644713] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake\n'}
+[32.644986] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake\n'}
+[32.645078] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/zj/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml\n'}
+[32.648431] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[32.674907] (demo_cpp_topic) JobEnded: {'identifier': 'demo_cpp_topic', 'rc': 0}
+[32.677188] (-) EventReactorShutdown: {}
